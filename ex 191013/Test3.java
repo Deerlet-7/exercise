@@ -1,5 +1,5 @@
 public class Test3{
-	//求两个正整数的最大公约数
+	//求两个正整数最大公约数
 	public static void main(String[] args){
 		int a = 12;
 		int b = 30;
