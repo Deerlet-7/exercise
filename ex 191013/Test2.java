@@ -1,5 +1,5 @@
 public class Test2{
-	//输出乘法口诀表
+	//输出乘法口诀表。
 	public static void main(String[] args){
 		int i = 1;
 		int j = 1;
