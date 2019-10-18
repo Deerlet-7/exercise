@@ -1,5 +1,5 @@
 public class Test{
-	//判定一个数字是否是素数
+	//判定一个数字是否是素数。
 	public static void main(String[] args){
 		int a = 71;
 		int i = 2;
