@@ -29,7 +29,7 @@ public class Test{
 	// }
 	
 	
-	//交换两个数
+	//交换两个数。
 	// public static void main1(String[] args){
 		// int a = 10;
 		// int b = 20;
