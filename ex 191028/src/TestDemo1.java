@@ -16,7 +16,7 @@ public class TestDemo1 {
                 sum += Math.pow((tmp%10),count);
                 tmp /= 10;
             }
-            //sum=i？打印：下一趟
+            //sum=i？打印：下一趟。
             if(sum == i){
                 System.out.println(i);
             }
