@@ -25,7 +25,7 @@ public class TestDemo1 {
         int n = sc.nextInt();
         System.out.println(TestDemo1.fibonacci2(n));
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) {//判断闰年
         Scanner sc = new Scanner(System.in);
         System.out.println("输入要判断的年份");
         int year = sc.nextInt();
