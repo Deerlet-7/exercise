@@ -1,6 +1,7 @@
 class Calculator {
     private double num1;
     private double num2;
+	//或者用相应的构造方法
     public void setNum1(double num1) {
         this.num1 = num1;
     }
