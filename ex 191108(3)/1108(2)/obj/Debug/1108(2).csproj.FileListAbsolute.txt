@@ -1,0 +1,9 @@
+F:\C\try\1108(2)\1108(2)\bin\Debug\1108(2).exe.config
+F:\C\try\1108(2)\1108(2)\bin\Debug\1108(2).exe
+F:\C\try\1108(2)\1108(2)\bin\Debug\1108(2).pdb
+F:\C\try\1108(2)\1108(2)\obj\Debug\1108(2).csprojResolveAssemblyReference.cache
+F:\C\try\1108(2)\1108(2)\obj\Debug\_1108_2_.Form1.resources
+F:\C\try\1108(2)\1108(2)\obj\Debug\_1108_2_.Properties.Resources.resources
+F:\C\try\1108(2)\1108(2)\obj\Debug\1108(2).csproj.GenerateResource.Cache
+F:\C\try\1108(2)\1108(2)\obj\Debug\1108(2).exe
+F:\C\try\1108(2)\1108(2)\obj\Debug\1108(2).pdb
