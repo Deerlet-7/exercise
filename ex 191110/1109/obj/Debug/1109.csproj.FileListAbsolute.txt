@@ -1,0 +1,6 @@
+F:\C\try\1109\1109\bin\Debug\1109.exe.config
+F:\C\try\1109\1109\bin\Debug\1109.exe
+F:\C\try\1109\1109\bin\Debug\1109.pdb
+F:\C\try\1109\1109\obj\Debug\1109.csprojResolveAssemblyReference.cache
+F:\C\try\1109\1109\obj\Debug\1109.exe
+F:\C\try\1109\1109\obj\Debug\1109.pdb
