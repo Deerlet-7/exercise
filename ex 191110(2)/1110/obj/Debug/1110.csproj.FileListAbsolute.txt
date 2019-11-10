@@ -1,0 +1,6 @@
+F:\git\exercise\1110\1110\bin\Debug\1110.exe.config
+F:\git\exercise\1110\1110\bin\Debug\1110.exe
+F:\git\exercise\1110\1110\bin\Debug\1110.pdb
+F:\git\exercise\1110\1110\obj\Debug\1110.csprojResolveAssemblyReference.cache
+F:\git\exercise\1110\1110\obj\Debug\1110.exe
+F:\git\exercise\1110\1110\obj\Debug\1110.pdb
