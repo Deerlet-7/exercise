@@ -152,7 +152,7 @@ public class DoudleList {
 //        }
 //        return oldData;
     }
-    //防止内存泄漏
+    //防止内存泄漏。
 
     public void clear(){
         while (this.head != null){
