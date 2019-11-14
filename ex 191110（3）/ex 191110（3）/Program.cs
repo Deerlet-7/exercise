@@ -8,23 +8,30 @@ namespace ex_191110_3_
 {
     class Program
     {
+        static void show()
+        {
+            Console.WriteLine("有字符");
+            Console.Read();
+        }
         static void Main(string[] args)
         {
             Console.Write("请输入一个四位整数");
-            string s = Convert.ToString(Console.Read());
-            //int num = Convert.ToInt32(s);
-            int num;
-            ASCIIEncoding ascii = new ASCIIEncoding();
-            byte[] bytestr = ascii.GetBytes(s);
-            for (Byte l = 0; l < 4; l++)                   //遍历这个数组里的内容
+            Char[] str = new Char[4];
+            int k = 0;
+            Char  s = Convert.ToChar(Console.Read());
+            for (k = 0;k < str.Length; k++)
             {
-                if (bytestr[l] < 48 || bytestr[l] > 57)                          //判断是否为数字
-                {
-                    Console.WriteLine("有字符");
-                }
-                Console.Read();
+                str[k] =s;
             }
-            num = Convert.ToInt32(s);
+            int l = 0;
+            for(l = 0; l < str.Length; l++)
+            {
+                if (str[l] < '0' || str[l] > '9')
+                {
+                    show();
+                }
+            }
+            int num = Convert.ToInt32(str);
             int[] each = new int[4];
             int max, min, i, j, tmpe;
             while (num != 6174 && num != 0)
