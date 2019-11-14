@@ -8,41 +8,41 @@ namespace Test3_1
 {
     class Card
     {
-        private string title, author;    //定义私有成员变量字符串型 title,author
-        private int total;      //定义私有成员变量整数型 total
-        public Card()       //Card的无参构造函数
+        private string title, author;    
+        private int total;    
+        public Card()  
         {
             title = "";
             author = "";
             total = 0;
         }
-        public Card(string title, string author, int total)    //Card的有参的构造函数
+        public Card(string title, string author, int total)  
         {
             this.title = title;
             this.author = author;
             this.total = total;
         }
-        public void store(ref Card card)  //store的有参的构造函数，且参数为引用参数（在方法内对形参的修改就是对外部实参变量的修改）
+        public void store(ref Card card) 
         {
             title = card.title;
             author = card.author;
             total = card.total;
         }
-        public void show()    //显示
+        public void show()    
         {
             Console.WriteLine("Title:{0},Author:{1},Total:{2}", title, author, total);
         }
-        public string Title    //书名的读与写
+        public string Title 
         {
             get { return title; }
             set { title = value; }
         }
-        public string Author    //作者的读与写
+        public string Author
         {
             get { return author; }
             set { author = value; }
         }
-        public int Total     //图书总数的读与写
+        public int Total  
         {
             get { return total; }
             set { total = value; }
@@ -52,13 +52,13 @@ namespace Test3_1
     {
         static void Main(string[] args)
         {
-            Test3_1 T = new Test3_1();   //
+            Test3_1 T = new Test3_1();   
             Card[] books;
             int[] index;
             int i, k;
-            Card card = new Card();
+            Card card = new Card();//new一个card对象
             Console.Write("请输入需要入库图书的总数：");
-            string sline = Console.ReadLine();
+            string sline = Console.ReadLine();//sline存放输入的入库总数
             int num = int.Parse(sline);
             books = new Card[num];
             for (i = 0; i < num; i++)
@@ -98,6 +98,7 @@ namespace Test3_1
             }
             Console.Read();
         }
+        //按书名排序的函数
         void sortTitle(Card[] book, int[] index)
         {
             int i, j, m, n, temp;
@@ -114,6 +115,7 @@ namespace Test3_1
                     }
                 }
         }
+        //按作者排序的函数
         void sortAuthor(Card[] book, int[] index)
         {
             int i, j, m, n, temp;
@@ -130,6 +132,7 @@ namespace Test3_1
                     }
                 }
         }
+        //按入库量排序的函数
         void sortTotal(Card[] book, int[] index)
         {
             int i, j, m, n, temp;
