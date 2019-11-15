@@ -16,19 +16,20 @@ namespace ex_191110_3_
         static void Main(string[] args)
         {
             Console.Write("请输入一个四位整数");
-            Char[] str = new Char[4];
+            String[] str = new String[4];
             int k = 0;
             Char  s = Convert.ToChar(Console.Read());
             for (k = 0;k < str.Length; k++)
             {
-                str[k] =s;
+                str[k] =Convert.ToString(s);
             }
             int l = 0;
             for(l = 0; l < str.Length; l++)
             {
-                if (str[l] < '0' || str[l] > '9')
+                if (Convert.ToChar(str[l]) < '0' || Convert.ToChar(str[l]) > '9')
                 {
                     show();
+                    break;
                 }
             }
             int num = Convert.ToInt32(str);
