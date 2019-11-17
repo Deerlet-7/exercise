@@ -1,11 +1,13 @@
 public class TestDemo1 {
     public static void main(String[] args) {
         SignalList signalList = new SignalList();
-        signalList.addFirst(1);
-        signalList.addFirst(2);
-        signalList.addFirst(3);
-        signalList.addFirst(4);
-        signalList.addFirst(5);
+        signalList.addLast(1);
+        signalList.addLast(2);
+        signalList.addLast(3);
+        signalList.addLast(4);
+        signalList.addLast(5);
         signalList.display();
-    }
+        System.out.println("=============================");
+        System.out.println(signalList.contains(9));
+;    }
 }
