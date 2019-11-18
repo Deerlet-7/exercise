@@ -1,14 +1,10 @@
 public class TestDemo1 {
-    public static void func(Animal animal){
+    public static void main1(String[] args) {
+        Animal animal= new Bird("niao ",3,"black");
         animal.eat();
-    }
-    public static Animal func2(){
-        Cat cat = new Cat("mimi",3,"man");
-        return cat;
-    }
-    public static void main(String[] args) {
-        Animal animal = func2();
-//        Cat cat = new Cat("mimi",2,"man");
-//        func(cat);
+//        Bird bird = (Bird)animal;//animale无法直接调用fly(),只能将其强转为Bird类型来调用fly()方法
+//        bird.fly();
+        Cat cat = (Cat)animal;
+        cat.jump();
     }
 }
