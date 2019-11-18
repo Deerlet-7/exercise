@@ -82,6 +82,30 @@ public class SignalList {
         }
         return false;
     }
+    //反转单链表
+    public ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode cur = this.head;
+        ListNode newHead = null;
+        while (cur != null){
+            ListNode curNext = cur.next;
+            if(curNext == null){
+                newHead = cur;
+            }
+            cur.next = prev;
+            prev = cur;
+            cur = curNext;
+        }
+        return newHead;
+    }
+    public void display2(ListNode newHead) {
+        ListNode cur = newHead;
+        while (cur != null) {
+            System.out.print(cur.data+" ");
+            cur = cur.next;
+        }
+        System.out.println();
+    }
     //打印
     public void display(){
         ListNode cur = this.head;

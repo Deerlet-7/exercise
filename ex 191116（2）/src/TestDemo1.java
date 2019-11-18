@@ -5,9 +5,11 @@ public class TestDemo1 {
         signalList.addLast(2);
         signalList.addLast(3);
         signalList.addLast(4);
-        signalList.addLast(5);
+        signalList.addLast(9);
         signalList.display();
         System.out.println("=============================");
-        System.out.println(signalList.contains(9));
+        signalList.display2(signalList.reverseList(signalList.head));
+
+
 ;    }
 }
