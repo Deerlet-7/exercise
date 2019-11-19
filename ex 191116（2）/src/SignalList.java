@@ -82,6 +82,46 @@ public class SignalList {
         }
         return false;
     }
+    //找要删除key的前驱
+    private ListNode searchPrev(int key) {
+        ListNode prev = this.head;
+        while (prev.next!=null){
+            if(prev.next.data == key){
+                return prev;
+            }
+            prev = prev.next;
+        }
+        return null;
+    }
+    //删除第一次出现关键字为key的节点
+    public void remove(int key){
+        if(this.head == null){
+            System.out.println("单链表为空");
+            return;
+        }
+        if(this.head.data == key){
+            this.head = this.head.next;
+            return;
+        }
+        ListNode prev = searchPrev(key);
+        if(prev == null){
+            System.out.println("没有该节点");
+            return;
+        }
+        ListNode del = prev.next;
+        prev.next = del.next;
+    }
+    //单链表的中间节点
+    public ListNode middleNode() {
+        ListNode fast = this.head;
+        ListNode slow = this.head;
+        while (fast != null&&fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+    //
     //反转单链表
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;

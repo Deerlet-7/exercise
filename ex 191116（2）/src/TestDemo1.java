@@ -8,8 +8,8 @@ public class TestDemo1 {
         signalList.addLast(9);
         signalList.display();
         System.out.println("=============================");
-        signalList.display2(signalList.reverseList(signalList.head));
-
+        ListNode a = signalList.middleNode();
+        System.out.println(a.data);
 
 ;    }
 }
