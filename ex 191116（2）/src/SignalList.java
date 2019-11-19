@@ -111,6 +111,27 @@ public class SignalList {
         ListNode del = prev.next;
         prev.next = del.next;
     }
+    //删除所有值为key的节点
+    public void removeAllKey(int key){
+        if(this.head == null){
+            System.out.println("空链表");
+            return;
+        }
+        ListNode prev = this.head;
+        ListNode cur = this.head.next;
+        while (cur != null) {
+            if(prev.next.data == key){
+                prev.next = cur.next;
+                cur = cur.next;
+            }else {
+                prev = cur;
+                cur = cur.next;
+            }
+        }
+        if(this.head.data == key) {
+            this.head = this.head.next;
+        }
+    }
     //单链表的中间节点
     public ListNode middleNode() {
         ListNode fast = this.head;
