@@ -1,4 +1,10 @@
 package com.bit.operation;
 
-public class ReturnOperation {
+import com.bit.book.BookList;
+
+public class ReturnOperation implements IOperation{
+    @Override
+    public void work(BookList bookList) {
+        System.out.println("ReturnOperation");
+    }
 }
