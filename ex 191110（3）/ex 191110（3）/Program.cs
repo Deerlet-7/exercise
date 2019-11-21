@@ -10,7 +10,7 @@ namespace ex_191110_3_
     {
         static void show()
         {
-            Console.WriteLine("有字符");
+            Console.WriteLine("有字符");//
             Console.Read();
         }
         static void Main(string[] args)
