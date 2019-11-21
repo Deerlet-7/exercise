@@ -8,60 +8,62 @@ namespace ex_191110_3_
 {
     class Program
     {
-        static void show()
+        public static bool testInput(string s)
         {
-            Console.WriteLine("有字符");//
-            Console.Read();
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (!char.IsNumber(s[i]))
+                    return false;
+            }
+            return true;
         }
+        //卡布列克运算
         static void Main(string[] args)
         {
             Console.Write("请输入一个四位整数");
-            String[] str = new String[4];
-            int k = 0;
-            Char  s = Convert.ToChar(Console.Read());
-            for (k = 0;k < str.Length; k++)
+            string s = Console.ReadLine();
+            char[] array = new char[s.Length];
+            for (int x = 0; x < s.Length; x++)
             {
-                str[k] =Convert.ToString(s);
+                array[x] = s[x];
             }
-            int l = 0;
-            for(l = 0; l < str.Length; l++)
+            while (!testInput(s))
             {
-                if (Convert.ToChar(str[l]) < '0' || Convert.ToChar(str[l]) > '9')
-                {
-                    show();
-                    break;
-                }
+                Console.WriteLine("输入错误，请重新输入一个四位数整数：");
+                s = Console.ReadLine();
             }
-            int num = Convert.ToInt32(str);
+            int num = Convert.ToInt32(s);
             int[] each = new int[4];
             int max, min, i, j, tmpe;
             while (num != 6174 && num != 0)
             {
                 i = 0;
+                //得到每一位，放进数组里
                 while (num != 0)
                 {
                     each[i++] = num % 10;
                     num = num / 10;
                 }
 
-                    for (i = 0; i < 3; i++)
+                //对数组进行排序
+                for (i = 0; i < 3; i++)
+                {
+                    for (j = 0; j < 3 - i; j++)
                     {
-                        for (j = 0; j < 3 - i; j++)
+                        if (each[j] > each[j + 1])
                         {
-                            if (each[j] > each[j + 1])
-                            {
-                                tmpe = each[j];
-                                each[j] = each[j + 1];
-                                each[j + 1] = tmpe;
-                            }
+                            tmpe = each[j];
+                            each[j] = each[j + 1];
+                            each[j + 1] = tmpe;
                         }
                     }
+                }
                 min = 1000 * each[0] + 100 * each[1] + 10 * each[2] + 1 * each[3];
                 max = 1000 * each[3] + 100 * each[2] + 10 * each[1] + 1 * each[0];
                 num = max - min;
                 Console.WriteLine("{0}-{1}={2}", max, min, num);
-                }
-            Console.Read();
             }
+            Console.Read();
         }
+    }
     }
