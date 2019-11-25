@@ -1,9 +1,9 @@
-﻿using System;
+﻿#if false
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace ex_191114
 {
     class CRect
@@ -19,10 +19,10 @@ namespace ex_191114
             Console.WriteLine("CRect()Constructing rectangle number{0}", total_rects);
             Console.WriteLine("Total rectangle ateas is:{0}", total_rect_area);
         }
-        public CRect(int x1,int y1,int x2,int y2)
+        public CRect(int x1, int y1, int x2, int y2)
         {
-            left = x1;top = y1;
-            right = x2;bottom = y2;
+            left = x1; top = y1;
+            right = x2; bottom = y2;
             total_rects++;
             total_rect_area += getHeight() * getWidth();
             Console.WriteLine("CRect(int,int,int,int)Constructing rectangle number{0}", total_rects);
@@ -30,8 +30,8 @@ namespace ex_191114
         }
         public CRect(CRect r)
         {
-            left = r.left;right = r.right;
-            top = r.top;bottom = r.bottom;
+            left = r.left; right = r.right;
+            top = r.top; bottom = r.bottom;
             total_rects++;
             total_rect_area += getHeight() * getWidth();
             Console.WriteLine("CRect(CRect&)Constructing rectangle number{0}", total_rects);
@@ -43,12 +43,12 @@ namespace ex_191114
         { return right > left ? right - left : left - right; }
         public static int getTotalRects()
         { return total_rects; }
-        public static long  getTotalRectArea()
+        public static long getTotalRectArea()
         { return total_rect_area; }
     }
     class Program
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             CRect rect1 = new CRect(1, 3, 6, 4), rect2 = new CRect(rect1);
             Console.Write("Rectangle 2:Height:{0}", rect2.getHeight());
@@ -58,7 +58,8 @@ namespace ex_191114
             Console.WriteLine(",Width:{0}", rect3.getWidth());
             Console.Write("total_rects={0}", CRect.total_rects);
             Console.WriteLine("total_rect_area={0}", CRect.total_rect_area);
-            Console.Read(); 
+            Console.Read();
         }
     }
 }
+#endif
