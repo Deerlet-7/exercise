@@ -11,7 +11,8 @@ namespace Test3_2
         long cardNo;
         decimal balance;
         int currentNum;
-        static int sum;
+        String str = "123456";//密码
+        static int sum;//保存交易金额
         static int number;
         decimal[] currentMoney;
         public Card()
