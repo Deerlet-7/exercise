@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Notepad
 {
-    public partial class Form1 : Form
+    public partial class frmTxt : Form
     {
-        public Form1()
+        public frmTxt()
         {
             InitializeComponent();
+        }
+
+        private void 打开ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
