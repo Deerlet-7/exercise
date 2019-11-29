@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MDINotepad
+namespace MDINotepad//
 {
     public partial class MDIForm : Form
     {
