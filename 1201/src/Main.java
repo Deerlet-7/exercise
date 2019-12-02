@@ -1,5 +1,5 @@
 import java.util.*;
-//
+//拆分拼接
 public class Main{
     public static String func(String str){
         String[] s = str.split(" ");
