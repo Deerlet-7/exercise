@@ -1,7 +1,7 @@
 public class Test {
     public static void main(String[] args) {
         MySignalList mySignalList = new MySignalList();
-        mySignalList.addLast(1);
+        mySignalList.addLast(1);//
         mySignalList.addLast(3);
         mySignalList.addLast(5);
         mySignalList.addLast(7);
