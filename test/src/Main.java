@@ -10,7 +10,7 @@ class MySignalList {
     public ListNode head;
 
     public MySignalList() {
-        this.head = null;
+        this.head = null;//
     }
     public void addLast(int data){
         ListNode node = new ListNode(data);
