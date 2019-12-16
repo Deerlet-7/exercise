@@ -1,0 +1,185 @@
+mysql> use class_13_db
+Database changed
+
+mysql> create table stu_score(
+    ->   name varchar(20),
+    ->   sn varchar(10),
+    ->   chinese int,
+    ->   math int,
+    ->   english int,
+    ->   data_structure int,
+    ->   data_base int
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> insert into stu_score values('Danny','20170001',89,96,85,46,78);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into stu_score values('Lily','20170002',91,94,95,86,88);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> select * from stu_score;
++-------+----------+---------+------+---------+----------------+-----------+
+| name  | sn       | chinese | math | english | data_structure | data_base |
++-------+----------+---------+------+---------+----------------+-----------+
+| Danny | 20170001 |      89 |   96 |      85 |             46 |        78 |
+| Lily  | 20170002 |      91 |   94 |      95 |             86 |        88 |
++-------+----------+---------+------+---------+----------------+-----------+
+2 rows in set (0.03 sec)
+
+mysql> insert into stu_score(name,sn,english)values('lucy','2017013',99);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into stu_score(name,sn,data_base)values('July','2017011',88);
+Query OK, 1 row affected (0.03 sec)
+
+mysql>  select * from stu_score;
++-------+----------+---------+------+---------+----------------+-----------+
+| name  | sn       | chinese | math | english | data_structure | data_base |
++-------+----------+---------+------+---------+----------------+-----------+
+| Danny | 20170001 |      89 |   96 |      85 |             46 |        78 |
+| Lily  | 20170002 |      91 |   94 |      95 |             86 |        88 |
+| lucy  | 2017013  |    NULL | NULL |      99 |           NULL |      NULL |
+| July  | 2017011  |    NULL | NULL |    NULL |           NULL |        88 |
++-------+----------+---------+------+---------+----------------+-----------+
+4 rows in set (0.00 sec)
+
+mysql> select name,sn from stu_score;
++-------+----------+
+| name  | sn       |
++-------+----------+
+| Danny | 20170001 |
+| Lily  | 20170002 |
+| lucy  | 2017013  |
+| July  | 2017011  |
++-------+----------+
+4 rows in set (0.00 sec)
+
+mysql> select name,sn,chinese+math+english+data_structure+data_base as total_score from stu_score;
++-------+----------+-------------+
+| name  | sn       | total_score |
++-------+----------+-------------+
+| Danny | 20170001 |         394 |
+| Lily  | 20170002 |         454 |
+| lucy  | 2017013  |        NULL |
+| July  | 2017011  |        NULL |
++-------+----------+-------------+
+4 rows in set (0.02 sec)
+
+mysql> select name,sn from stu_score where english>=90 order by sn desc;
++------+----------+
+| name | sn       |
++------+----------+
+| lucy | 2017013  |
+| Lily | 20170002 |
++------+----------+
+2 rows in set (0.02 sec)
+
+mysql> select name,sn from stu_score where english>=90;
++------+----------+
+| name | sn       |
++------+----------+
+| Lily | 20170002 |
+| lucy | 2017013  |
++------+----------+
+2 rows in set (0.00 sec)
+
+mysql> insert into stu_score values('Bob','2017007',88,34,54,64,23);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from stu_score where english<60&&math<60;
++------+---------+---------+------+---------+----------------+-----------+
+| name | sn      | chinese | math | english | data_structure | data_base |
++------+---------+---------+------+---------+----------------+-----------+
+| Bob  | 2017007 |      88 |   34 |      54 |             64 |        23 |
++------+---------+---------+------+---------+----------------+-----------+
+1 row in set (0.00 sec)
+
+mysql> insert into stu_score values('Tom','2017007',88,84,54,64,23);
+Query OK, 1 row affected (0.00 sec)
+
+mysql>  select * from stu_score;
++-------+----------+---------+------+---------+----------------+-----------+
+| name  | sn       | chinese | math | english | data_structure | data_base |
++-------+----------+---------+------+---------+----------------+-----------+
+| Danny | 20170001 |      89 |   96 |      85 |             46 |        78 |
+| Lily  | 20170002 |      91 |   94 |      95 |             86 |        88 |
+| lucy  | 2017013  |    NULL | NULL |      99 |           NULL |      NULL |
+| July  | 2017011  |    NULL | NULL |    NULL |           NULL |        88 |
+| Bob   | 2017007  |      88 |   34 |      54 |             64 |        23 |
+| Tom   | 2017007  |      88 |   84 |      54 |             64 |        23 |
++-------+----------+---------+------+---------+----------------+-----------+
+6 rows in set (0.00 sec)
+
+mysql> select name from stu_score where math between 80 and 90;
++------+
+| name |
++------+
+| Tom  |
++------+
+1 row in set (0.00 sec)
+
+mysql> select name,sn from stu_score where math<=>null;
++------+---------+
+| name | sn      |
++------+---------+
+| lucy | 2017013 |
+| July | 2017011 |
++------+---------+
+2 rows in set (0.00 sec)
+
+mysql> select name,sn from stu_score order by sn desc limit 3;
++------+---------+
+| name | sn      |
++------+---------+
+| lucy | 2017013 |
+| July | 2017011 |
+| Bob  | 2017007 |
++------+---------+
+3 rows in set (0.00 sec)
+
+update stu_score set math=65 where math<60;
+
+mysql> update stu_score set math=65 where math<60;
+Query OK, 1 row affected (0.03 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from stu_score;
++-------+----------+---------+------+---------+----------------+-----------+
+| name  | sn       | chinese | math | english | data_structure | data_base |
++-------+----------+---------+------+---------+----------------+-----------+
+| Danny | 20170001 |      89 |   96 |      85 |             46 |        78 |
+| Lily  | 20170002 |      91 |   94 |      95 |             86 |        88 |
+| lucy  | 2017013  |    NULL | NULL |      99 |           NULL |      NULL |
+| July  | 2017011  |    NULL | NULL |    NULL |           NULL |        88 |
+| Bob   | 2017007  |      88 |   65 |      54 |             64 |        23 |
+| Tom   | 2017007  |      88 |   84 |      54 |             64 |        23 |
++-------+----------+---------+------+---------+----------------+-----------+
+6 rows in set (0.00 sec)
+
+mysql> delete from stu_score where name='Bob';
+Query OK, 1 row affected (0.02 sec)
+
+mysql> select * from stu_score;
++-------+----------+---------+------+---------+----------------+-----------+
+| name  | sn       | chinese | math | english | data_structure | data_base |
++-------+----------+---------+------+---------+----------------+-----------+
+| Danny | 20170001 |      89 |   96 |      85 |             46 |        78 |
+| Lily  | 20170002 |      91 |   94 |      95 |             86 |        88 |
+| lucy  | 2017013  |    NULL | NULL |      99 |           NULL |      NULL |
+| July  | 2017011  |    NULL | NULL |    NULL |           NULL |        88 |
+| Tom   | 2017007  |      88 |   84 |      54 |             64 |        23 |
++-------+----------+---------+------+---------+----------------+-----------+
+5 rows in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+
+
+
