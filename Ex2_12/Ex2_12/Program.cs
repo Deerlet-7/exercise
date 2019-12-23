@@ -11,7 +11,7 @@ namespace Ex2_12
     {
         static void Main(string[] args)
         {
-            string s = Console.ReadLine();
+            string s = Console.ReadLine();//
             int i = 0;
             int j = 0;
             int sum = 0;
