@@ -8,6 +8,7 @@ namespace Ex2_8
 {
     class Program
     {
+		//
         static void Main(string[] args)
         {
             int[] a = new int[] { 6, 8, 3, 5, 24, 5, 65, 33 };
