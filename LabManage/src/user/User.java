@@ -2,7 +2,7 @@ package user;
 
 import lab.LabList;
 import operation.IOperation;
-
+//
 public abstract class User {
     protected String name;
     protected IOperation[] operations;
