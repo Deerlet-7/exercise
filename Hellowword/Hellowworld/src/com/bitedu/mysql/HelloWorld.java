@@ -10,7 +10,7 @@ public class HelloWorld {
         Connection connection = null;
         Statement stmt = null;
         try {
-            // 加载数据库驱动
+            // 加载数据库的驱动
             Class.forName("com.mysql.jdbc.Driver");
 
             connection = DriverManager.getConnection
