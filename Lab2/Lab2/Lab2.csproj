@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{966BBA8C-E85B-4462-8D8D-97777C228A14}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lab2</RootNamespace>
+    <AssemblyName>Lab2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminDenglu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDenglu1.designer.cs">
+      <DependentUpon>AdminDenglu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dao1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="myy.Designer.cs">
+      <DependentUpon>myy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sh.Designer.cs">
+      <DependentUpon>Sh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShenHe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShenHe.Designer.cs">
+      <DependentUpon>ShenHe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StuDenglu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StuDenglu1.Designer.cs">
+      <DependentUpon>StuDenglu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sys.Designer.cs">
+      <DependentUpon>Sys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sysgl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sysgl.Designer.cs">
+      <DependentUpon>Sysgl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeaDenglu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeaDenglu1.Designer.cs">
+      <DependentUpon>TeaDenglu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tj.Designer.cs">
+      <DependentUpon>Tj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YH.Designer.cs">
+      <DependentUpon>YH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yy.Designer.cs">
+      <DependentUpon>Yy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zhanghao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zhanghao.Designer.cs">
+      <DependentUpon>Zhanghao.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminDenglu1.resx">
+      <DependentUpon>AdminDenglu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="myy.resx">
+      <DependentUpon>myy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Sh.resx">
+      <DependentUpon>Sh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShenHe.resx">
+      <DependentUpon>ShenHe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StuDenglu1.resx">
+      <DependentUpon>StuDenglu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sys.resx">
+      <DependentUpon>Sys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sysgl.resx">
+      <DependentUpon>Sysgl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeaDenglu1.resx">
+      <DependentUpon>TeaDenglu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tj.resx">
+      <DependentUpon>Tj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YH.resx">
+      <DependentUpon>YH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yy.resx">
+      <DependentUpon>Yy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zhanghao.resx">
+      <DependentUpon>Zhanghao.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

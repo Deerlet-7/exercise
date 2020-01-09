@@ -1,0 +1,1 @@
+﻿alter database SYSDB1 collate Chinese_PRC_CI_AS;
