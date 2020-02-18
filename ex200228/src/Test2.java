@@ -1,4 +1,5 @@
 public class Test2 {
+	//问循环次数
     public static void main(String[] args) {
         int i = 7;
         do {
