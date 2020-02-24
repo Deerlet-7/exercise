@@ -1,12 +1,23 @@
 public class Test {
-	//
+	//赎金信 一开始题目理解有问题
     public static void main(String[] args) {
         String ransomNote = "bg";
-        String magazine = "efjbdfbbgbjagbddfgdiaigdadhcfcj";
+        String magazine = "efjbdfbbbjagbddfgdiaigdadhcfcj";
         System.out.println(Test.canConstruct(ransomNote,magazine));
     }
     public static boolean canConstruct(String ransomNote, String magazine) {
-        char[] ch = ransomNote.toCharArray();
+            StringBuilder stringBuilder = new StringBuilder(magazine);
+            int index;
+            for (char c : ransomNote.toCharArray()) {
+                index = stringBuilder.indexOf(String.valueOf(c));
+                if (index >= 0) {
+                    stringBuilder.deleteCharAt(index);
+                } else {
+                    return false;
+                }
+            }
+            return true;
+      /*  char[] ch = ransomNote.toCharArray();
         char[] ch2 = magazine.toCharArray();
         int k = 0;
 
@@ -26,6 +37,6 @@ public class Test {
             return true;
         }else {
             return false;
-        }
+        }*/
     }
 }
