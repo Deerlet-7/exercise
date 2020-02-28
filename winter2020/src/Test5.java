@@ -53,11 +53,11 @@ class Person{
 //这里给成泛型类
 class MyArrayList<E>{
     public MyArrayList(int capacity){
-        array = new Object[capacity];
+        array = (E[])new Object[capacity];//构造时还不知道E是什么类型，故无法直接new E[] 类型空间，只能先申请Object[]然后进行 E[]的强转
         size = 0;
         this.capacity = capacity;
     }
-    public void add(Object e){
+    public void add(E e){
         //检测容量
         array[size++] = e;
     }
@@ -71,7 +71,7 @@ class MyArrayList<E>{
     public boolean isEmpty(){
         return size == 0;
     }
-    Object[] array;
+    E[] array;
     int capacity;
     int size;
 }
@@ -83,10 +83,10 @@ public class Test5 {
         L1.add(new Person());
         Person p = L1.get(0);//
         p.print();
-        MyArrayList L2 = new MyArrayList(10);
+        MyArrayList<Book> L2 = new MyArrayList(10);
         L2.add(new Book());
         L2.add(new Book());
         L2.add(new Book());
-
+        Book b = L2.get(2);
     }
 }
