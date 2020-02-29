@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /*class Book{}
 class Person{
     public void print(){
@@ -44,7 +46,7 @@ public class Test5 {
 
     }
 }*/
-class Book{}
+/*class Book{}
 class Person{
     public void print(){
         System.out.println("def");
@@ -88,5 +90,26 @@ public class Test5 {
         L2.add(new Book());
         L2.add(new Book());
         Book b = L2.get(2);
+    }
+}*/
+/*public class Test5{
+    public static void main(String[] args) {
+//        ArrayList<Integer> L = new ArrayList<>();
+//        L.add(10);
+        int i = 10;
+        Integer i1 = i;//编译器在编译阶段将i变成对应的包装类型
+        Integer i2 = Integer.valueOf(i);//装箱
+        int i3 = i2.intValue();//拆箱
+    }
+}*/
+public class Test5{
+    public static void main(String[] args) {
+        Integer i = 100;
+        Integer i2 = 100;
+        Integer i3 = 200;
+        Integer i4 = 200;
+        Integer i5 = Integer.valueOf(100);
+        System.out.println(i == i2);
+        System.out.println(i3 == i4);
     }
 }
