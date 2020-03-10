@@ -4,7 +4,7 @@ import java.util.Collection;
 
 public class Test3 {
     public static void main(String[] args) {
-        Collection<String> list = new ArrayList<>();//collection接口实例化一个ArrayList对象
+        Collection<String> list = new ArrayList<>();//collection接口实例化一个ArrayList对象。
         System.out.println(list.size());
         System.out.println(list.isEmpty());
         list.add("我");
