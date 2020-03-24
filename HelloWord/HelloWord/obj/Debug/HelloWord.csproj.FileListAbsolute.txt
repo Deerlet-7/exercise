@@ -1,0 +1,6 @@
+F:\git\exercise\HelloWord\HelloWord\bin\HelloWord.dll.config
+F:\git\exercise\HelloWord\HelloWord\bin\HelloWord.dll
+F:\git\exercise\HelloWord\HelloWord\bin\HelloWord.pdb
+F:\git\exercise\HelloWord\HelloWord\obj\Debug\HelloWord.csprojResolveAssemblyReference.cache
+F:\git\exercise\HelloWord\HelloWord\obj\Debug\HelloWord.dll
+F:\git\exercise\HelloWord\HelloWord\obj\Debug\HelloWord.pdb
