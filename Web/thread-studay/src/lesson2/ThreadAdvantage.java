@@ -5,7 +5,7 @@ public class ThreadAdvantage {
     private static final long count = 10_0000_0000;
 
     public static void main(String[] args) throws InterruptedException {
-// 使用并发方式
+   // 使用并发方式
         concurrency();
 // 使用串行方式
         serial();

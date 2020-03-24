@@ -24,11 +24,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadAdvantage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThreadAdvantage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson2/ThreadAdvantage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Advantage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson2/Advantage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
               <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaemonThread.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson2/DaemonThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -47,6 +82,10 @@
       <list>
         <option value="$PROJECT_DIR$/thread-studay/src/lesson1/FirstLook.java" />
         <option value="$PROJECT_DIR$/thread-studay/src/lesson2/ThreadAdvantage.java" />
+        <option value="$PROJECT_DIR$/thread-studay/src/lesson2/Advantage.java" />
+        <option value="$PROJECT_DIR$/thread-studay/src/lesson2/MyThread.java" />
+        <option value="$PROJECT_DIR$/thread-studay/src/lesson2/Main.java" />
+        <option value="$PROJECT_DIR$/thread-studay/src/lesson2/DaemonThread.java" />
       </list>
     </option>
   </component>
@@ -59,10 +98,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="399" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="613" />
+    <option name="y" value="15" />
     <option name="width" value="1101" />
-    <option name="height" value="1095" />
+    <option name="height" value="1091" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -87,13 +127,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lesson1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-studay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,7 +164,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadAdvantage">
+  <component name="RunManager" selected="Application.DaemonThread">
+    <configuration name="Advantage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.Advantage" />
+      <module name="thread-studay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.DaemonThread" />
+      <module name="thread-studay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="FirstLook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.FirstLook" />
       <module name="thread-studay" />
@@ -126,6 +194,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.Main" />
+      <module name="thread-studay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,9 +264,15 @@
     <list>
       <item itemvalue="Application.FirstLook" />
       <item itemvalue="Application.ThreadAdvantage" />
+      <item itemvalue="Application.Advantage" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.DaemonThread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DaemonThread" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Advantage" />
         <item itemvalue="Application.ThreadAdvantage" />
         <item itemvalue="Application.FirstLook" />
       </list>
@@ -205,14 +290,15 @@
       <updated>1584161137939</updated>
       <workItem from="1584161142032" duration="7576000" />
       <workItem from="1584190276533" duration="21000" />
+      <workItem from="1585031483499" duration="7902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7597000" />
+    <option name="totallyTimeSpent" value="15499000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="409" y="10" width="734" height="727" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -224,11 +310,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24840765" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24719101" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.61944443" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22361112" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,7 +336,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson1/FirstLook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson2/ThreadAdvantage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson1/FirstLook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -285,7 +394,36 @@
     <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson2/ThreadAdvantage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson2/Advantage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-studay/src/lesson2/DaemonThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
