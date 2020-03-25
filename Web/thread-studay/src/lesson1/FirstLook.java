@@ -10,7 +10,4 @@ public class FirstLook {
         }).start();
         System.out.println(Thread.currentThread().getName());
     }
-    /*public static void main(String[] args) throws InterruptedException {
-        Thread.sleep(9999999999L);
-    }*/
 }
