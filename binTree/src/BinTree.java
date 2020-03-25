@@ -1,6 +1,6 @@
 //二叉树孩子表示法
 class BTNode{
-    BTNode left = null;//左孩子
+    BTNode left = null; //左孩子
     BTNode right =null;//右孩子
     int val;
     public BTNode(int val){
