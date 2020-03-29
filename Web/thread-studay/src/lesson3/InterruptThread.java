@@ -33,7 +33,7 @@ public class InterruptThread {
                 try {
                     System.out.println(Thread.currentThread().isInterrupted());
                     Thread.sleep(3000);
-                    System.out.println(Thread.currentThread().getName());
+//                    System.out.println(Thread.currentThread().getName());
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                     System.out.println(Thread.currentThread().isInterrupted());
@@ -75,6 +75,6 @@ public class InterruptThread {
         IS_INTERRUPTED = true;
     }
     public static void main(String[] args) {
-        test5();
+        test3();
     }
 }
