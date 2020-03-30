@@ -2,11 +2,9 @@ import java.util.*;
 import java.lang.*;
 public class Main{
     public static void main(String[] args){
-        /*Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         String a = sc.nextLine();
-        String b = sc.nextLine();*/
-        String a = "aba";
-        String b = null;
+        String b = sc.nextLine();
         int count = 0;
         if(a!=null&&b!=null){
             for(int i = 0;i<= a.length();i++){
@@ -16,8 +14,16 @@ public class Main{
                     count++;
                 }
             }
-        }else if (b == null&&a!=null){
-            count = a.length()+1;
+        }else if(a != null && b == null){
+            StringBuffer sb = new StringBuffer(a);
+            if(judge(sb)){
+                count = sb.length()+1;
+            }
+        }else if(a == null && b != null){
+            StringBuffer sb = new StringBuffer(b);
+            if(judge(sb)){
+                count = 1;
+            }
         }else {
             return;
         }
