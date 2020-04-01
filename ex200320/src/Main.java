@@ -2,9 +2,11 @@ import java.util.*;
 import java.lang.*;
 public class Main{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+       /* Scanner sc = new Scanner(System.in);
         String a = sc.nextLine();
-        String b = sc.nextLine();
+        String b = sc.nextLine();*/
+       String a = "aa";
+       String b = "a";
         int count = 0;
         if(a!=null&&b!=null){
             for(int i = 0;i<= a.length();i++){
@@ -32,7 +34,12 @@ public class Main{
     public static boolean judge(StringBuffer sbb){
         int i = sbb.length()/2;
         String sb1 = sbb.substring(0,i) ;
-        StringBuffer sb2 = new StringBuffer(sbb.substring(i));
+        StringBuffer sb2;
+        if(sbb.length()%2==0){
+             sb2 = new StringBuffer(sbb.substring(i));
+        }else {
+             sb2 = new StringBuffer(sbb.substring(i+1));
+        }
         String sb3 =  sb2.reverse().toString();
         return sb1.equals(sb3);
     }
