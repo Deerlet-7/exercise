@@ -1,6 +1,7 @@
 package day01;
 import java.util.*;
 import java.lang.*;
+//统计回文
 public class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

@@ -1,5 +1,5 @@
 package day02;
-
+//汽水瓶问题
 import java.util.*;
 public class Main{
     public static void main(String[] args){
@@ -14,9 +14,9 @@ public class Main{
         }
         while(n>2){
             count += n/3;
-            n/=3;
+            n = (n/3)+(n%3) ;
         }
-        if(n==2){
+        if(n == 2){
             count++;
         }
         return count;
