@@ -26,8 +26,8 @@ import java.util.*;
 public class Test{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int a = 18;//sc.nextInt();
-        int b = 12;//sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
         System.out.println((a*b)/maxG(a,b));
     }
     public static int maxG(int a,int b){
