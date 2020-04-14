@@ -8,11 +8,11 @@ import java.util.*;
 public class Test{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        //while(sc.hasNext()){
-            String a = "19999999";//sc.nextLine();
-            String b = "1";//sc.nextLine();
+        while(sc.hasNext()){
+            String a = sc.nextLine();
+            String b = sc.nextLine();
             System.out.println(addLongInteger(a,b));
-        //}
+        }
     }
 
     public static String addLongInteger(String a, String b){

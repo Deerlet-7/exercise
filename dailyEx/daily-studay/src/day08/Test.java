@@ -8,18 +8,41 @@ import java.util.*;
 public class Test{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int[] arr = new int[101];
-        while (sc.hasNext()){
-            for (int i = 0;i<102 ; i++) {
-                arr[i] = sc.nextInt();
+        while(sc.hasNext()){
+            String str = sc.nextLine();
+            String[] s = str.split(" ");
+            int[] num = new int[s.length-1];
+            for(int i=0;i<s.length-1;i++){
+                num[i] = Integer.parseInt(s[i]);
+            }
+            int k = Integer.parseInt(s[s.length-1]);
+            int start = 0;
+            int end = num.length-1;
+            int index = qSort(num, start,end);
+            while(index != k){
+                if(index>k){
+                    end = index - 1;
+                    index = qSort(num, start, end);
+                }else{
+                    start = index + 1;
+                    index = qSort(num, start, end);
+                }
+            }
+            Arrays.sort(num, 0, k);
+            for(int i=0;i<k;i++){
+                System.out.print(i==k-1?num[i]:num[i] + " ");
             }
         }
-        int key = arr[arr.length-1];
-        arr[arr.length-1]=0;
-        Arrays.sort(arr);
-        int[] ans = Arrays.copyOfRange(arr,1 ,arr.length);
-        for (int a:ans) {
-            System.out.print(a+" ");
+    }
+    public static int qSort(int[] num, int start, int end){
+        int dig = num[start];
+        while(start<end){
+            while(start<end && num[end]>=dig)end--;
+            num[start] = num[end];
+            while(start<end && num[start]<dig)start++;
+            num[end] = num[start];
         }
+        num[start] = dig;
+        return start;
     }
 }

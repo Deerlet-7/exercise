@@ -8,7 +8,7 @@ import java.util.*;
 public class Test{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int n = 123;//sc.nextInt();
+        int n = sc.nextInt();
         int tmp = n;
         String s = new String();
         while(tmp>0){

@@ -8,8 +8,8 @@ package day09;
 import java.util.*;
 public class Main{
     public static void main(String[] args){
-//        Scanner sc = new Scanner(System.in);
-        int n = 20;//sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         System.out.println(count(n));
     }
     public static int count(int n){
@@ -26,3 +26,20 @@ public class Main{
         return count;
     }
 }
+/*
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int res = 0;
+        for(int i = n; i >= 5; i--) {
+            int tmp = i;
+            while(tmp % 5 == 0) {
+                res++;
+                tmp /= 5;
+            }
+        }
+        System.out.println(res);
+    }
+}*/
