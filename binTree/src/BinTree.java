@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 //二叉树孩子表示法
 class BTNode{
     BTNode left = null; //左孩子
@@ -47,6 +50,12 @@ public class BinTree {
     }
     public int getKLeveNodeCount(int k){
         return getKLeveNodeCount(root,k);
+    }
+    public int getHight(){
+        return getHight(root);
+    }
+    public BTNode find(int val){
+        return find(root,val);
     }
     //前序遍历
     private void preOrder(BTNode root){
@@ -99,7 +108,87 @@ public class BinTree {
         }
         return getKLeveNodeCount(root.left,k-1)+getKLeveNodeCount(root.right,k-1);
     }
-
+    //求二叉树高度
+    private int getHight(BTNode root){
+        if(null == root){
+            return 0;
+        }
+        int leftHight =  getHight(root.left);
+        int rightHight = getHight(root.right);
+        return Math.max(leftHight+1,rightHight+1);
+    }
+    //获取val在树中对应的节点，找到返回节点，没找到返回null
+    private BTNode find(BTNode root,int val){
+        if(null == root){
+            return null;
+        }
+        if(root.val == val){
+            return root;
+        }
+        BTNode retNode = null;
+        if(null != (retNode = find(root.left,val))||null != (retNode = find(root.right,val)))
+            return retNode;
+        return null;
+    }
+    //检查两棵树是否相同
+    public boolean isSameTree(BTNode p,BTNode q){
+        if(null == p&&null == q){
+            return true;
+        }
+        if(null == p||null == q){
+            return false;
+        }
+        if(p.val != q.val){
+            return false;
+        }
+        return isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
+    }
+    //判断一棵树t是另一颗s的子树
+    public boolean isSubtree(BTNode s,BTNode t){
+        if(null == s && null == t){
+            return false;
+        }
+        if(null == s){
+            return false;
+        }
+        if(null == t){
+            return true;
+        }
+        if(s.val == t.val && isSameTree(s,t)){
+            return true;
+        }
+        return isSubtree(s.left,t)||isSubtree(s.right,t);
+    }
+    //判断是否平衡二叉树
+    public boolean isBalanced(BTNode root){
+        if(null == root){
+            return true;
+        }
+        int leftHight = getHight(root.left);
+        int rightHight = getHight(root.right);
+        if(Math.abs(leftHight-rightHight)>1){
+            return false;
+        }
+        return isBalanced(root.left) && isBalanced(root.right);
+    }
+    //层序遍历
+    public void LeverOrder(){
+        if(null == root){
+            return;
+        }
+        Queue<BTNode> q = new LinkedList<>();
+        q.offer(root);
+        while (!q.isEmpty()){
+            BTNode cur = q.poll();
+            System.out.println(cur.val);
+            if(null != cur.left){
+                q.offer(cur.left);
+            }
+            if(null != cur.right){
+                q.offer(cur.right);
+            }
+        }
+    }
     public static void main(String[] args) {
         BinTree bt = new BinTree();
         bt.preOrder();
