@@ -1,5 +1,4 @@
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 //二叉树孩子表示法
 class BTNode{
@@ -64,6 +63,46 @@ public class BinTree {
             preOrder(root.left);
             preOrder(root.right);
         }
+    }
+    //非递归前序遍历 层序遍历用栈实现
+    public void preOrderNor1(){
+        if(null == root){
+            return;
+        }
+        Stack<BTNode> s = new Stack<>();
+        s.push(root);
+        while (!s.isEmpty()){
+            BTNode cur = s.peek();
+            s.pop();
+            System.out.print(cur.val+" ");
+            if(null != cur.right){
+                s.push(cur.right);
+            }
+            if(null != cur.left){
+                s.push(cur.left);
+            }
+        }
+        System.out.println();
+    }
+    //非递归前序遍历用栈实现
+    public void preOrderNor2(){
+        if(null == root){
+            return;
+        }
+        Stack<BTNode> s = new Stack<>();
+        s.push(root);
+        while (!s.isEmpty()){
+            BTNode cur = s.peek();
+            s.pop();
+            while (null != cur){
+                System.out.print(cur.val+" ");
+                if(cur.right != null){
+                    s.push(cur.right);
+                }
+                cur = cur.left;
+            }
+        }
+        System.out.println();
     }
     //中序遍历
     private void inOrder(BTNode root){
@@ -171,7 +210,7 @@ public class BinTree {
         }
         return isBalanced(root.left) && isBalanced(root.right);
     }
-    //层序遍历
+    //层序遍历（广度优先遍历 队列）
     public void LeverOrder(){
         if(null == root){
             return;
@@ -180,7 +219,7 @@ public class BinTree {
         q.offer(root);
         while (!q.isEmpty()){
             BTNode cur = q.poll();
-            System.out.println(cur.val);
+            System.out.print(cur.val+" ");
             if(null != cur.left){
                 q.offer(cur.left);
             }
@@ -188,14 +227,76 @@ public class BinTree {
                 q.offer(cur.right);
             }
         }
+        System.out.println();
+    }
+    //判断是否为完全二叉树
+    public boolean isCompleteTree(){
+        if(null == root){
+            return true;
+        }
+        //层序遍历找不饱和节点
+        Queue<BTNode> q = new LinkedList<>();
+        q.offer(root);
+        boolean isLeafOrLeft = false;
+        while (!q.isEmpty()){
+            BTNode cur = q.poll();
+            if(isLeafOrLeft){
+                //2、第一个不饱和结点之后，所有节点不能有孩子
+                if(cur.left != null || null != cur.right){
+                    return false;
+                }
+            }else {
+                    //1、按照层序遍历找第一个不饱和节点
+                    //左右孩子均存在
+                    if(null != cur.left && null != cur.right){
+                        q.offer(cur.left);
+                        q.offer(cur.right);
+                    }else if(cur.left != null){
+                        //只有左孩子
+                        q.offer(cur.left);
+                        isLeafOrLeft = true;
+                    }else if(cur.right != null){
+                        return false;
+                    }else {
+                        //叶子
+                        isLeafOrLeft = true;
+                    }
+            }
+        }
+        return true;
+    }
+    //二叉树的层序遍历
+    public List<List<Integer>> levelOrder(BTNode root) {
+        List<List<Integer>> ret = new ArrayList<>();
+        if(null == root){
+            return ret;
+        }
+        Queue<BTNode> q = new LinkedList<>();
+        q.offer(root);
+        while (!q.isEmpty()){
+            int size = q.size();
+            List<Integer> level = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+                BTNode cur = q.poll();
+                level.add(cur.val);
+                if(null != cur.left){
+                    q.offer(cur.left);
+                }
+                if(null != cur.right){
+                    q.offer(cur.right);
+                }
+            }
+            ret.add(level);
+        }
+        return ret;
     }
     public static void main(String[] args) {
         BinTree bt = new BinTree();
         bt.preOrder();
-        bt.inOrder();
-        bt.postOrder();
-        System.out.println(bt.getNodeCount());
-        System.out.println(bt.getLeafNodeCount());
-        System.out.println(bt.getKLeveNodeCount(2));
+        if(bt.isCompleteTree()){
+            System.out.println("is Com");
+        }else {
+            System.out.println("isn't Com");
+        }
     }
 }
