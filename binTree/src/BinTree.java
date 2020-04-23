@@ -290,6 +290,7 @@ public class BinTree {
         }
         return ret;
     }
+
     public static void main(String[] args) {
         BinTree bt = new BinTree();
         bt.preOrder();
