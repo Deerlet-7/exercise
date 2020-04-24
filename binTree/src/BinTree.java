@@ -112,6 +112,24 @@ public class BinTree {
             inOrder(root.right);
         }
     }
+    //中序非递归遍历
+    public void inOrderNor(){
+        if(null == root){
+            return;
+        }
+        BTNode cur = root;
+        Stack<BTNode> s = new Stack<>();
+        while (null != cur||!s.empty()){
+            while (null != cur){
+                s.push(cur);
+                cur = cur.left;
+            }
+            cur = s.peek();
+            System.out.print(cur.val+" ");
+            s.pop();
+            cur = cur.right;
+        }
+    }
     //后序遍历
     private void postOrder(BTNode root){
         if(root != null){
@@ -290,14 +308,10 @@ public class BinTree {
         }
         return ret;
     }
-
     public static void main(String[] args) {
         BinTree bt = new BinTree();
         bt.preOrder();
-        if(bt.isCompleteTree()){
-            System.out.println("is Com");
-        }else {
-            System.out.println("isn't Com");
-        }
+        bt.inOrder();
+        bt.inOrderNor();
     }
 }
