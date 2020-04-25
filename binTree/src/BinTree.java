@@ -167,12 +167,18 @@ public class BinTree {
     }
     //求二叉树高度
     private int getHight(BTNode root){
-        if(null == root){
+        /*if(null == root){
             return 0;
         }
         int leftHight =  getHight(root.left);
         int rightHight = getHight(root.right);
-        return Math.max(leftHight+1,rightHight+1);
+        return Math.max(leftHight+1,rightHight+1);*/
+        if(root == null){
+            return 0;
+        }
+        int left = 1 + getHight(root.left);
+        int right = 1 + getHight(root.right);
+        return Math.max(left, right);
     }
     //获取val在树中对应的节点，找到返回节点，没找到返回null
     private BTNode find(BTNode root,int val){
@@ -310,8 +316,9 @@ public class BinTree {
     }
     public static void main(String[] args) {
         BinTree bt = new BinTree();
-        bt.preOrder();
-        bt.inOrder();
-        bt.inOrderNor();
+        System.out.println(bt.getHight());
+//        bt.preOrder();
+//        bt.inOrder();
+//        bt.inOrderNor();
     }
 }
