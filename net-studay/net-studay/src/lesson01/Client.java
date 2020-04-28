@@ -10,7 +10,9 @@ import java.net.Socket;
  * Created by Deerlet-7 on 2020/4/26 13:37
  */
 public class Client {
+    //主机
     private static final String HOST = "127.0.0.1";
+    //端口号
     private static final int PORT = 9000;
 
     public static void main(String[] args) throws IOException {
