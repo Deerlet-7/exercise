@@ -37,7 +37,7 @@ public class Main{
 }
 /*
 import java.util.Scanner;
-public class Main {
+public class day26.Main.Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int y1, y2, y3, y4;

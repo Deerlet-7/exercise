@@ -5,7 +5,7 @@ package day07;
  * 不能二
  */
 /*import java.util.*;
-public class Main{
+public class day26.Main.Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int W=0,H=0;

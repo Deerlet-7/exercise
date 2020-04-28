@@ -19,7 +19,7 @@ public class Main2{
 
 /*
 import java.util.*;
-public class Main {
+public class day26.Main.Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while (in.hasNext()) {

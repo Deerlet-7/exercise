@@ -5,7 +5,7 @@ package day10;
  * fibonacci数列：给一个数，求最少要几步使其成为fibonacci数
  */
 /*import java.util.*;
-public class Main {
+public class day26.Main.Main {
     public static void main(String[] args) throws Exception{
         Scanner scanner = new Scanner(System.in);
         int n = 0;
