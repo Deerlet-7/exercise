@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Created by Deerlet-7 on 2020/4/29 12:56
- * 整数与IP地址之间的转换
+ * 整数与IP地址之间的转换。
  */
 public class Test {
     public static void main(String[] args) {
