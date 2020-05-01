@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc847dd7-6f1c-46b3-a1ad-5478f3e8548a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/daily-studay/src/day26/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daily-studay/src/day26/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily-studay/src/day06/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/daily-studay/src/day06/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily-studay/src/day06/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/daily-studay/src/day06/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily-studay/src/day07/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/daily-studay/src/day07/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily-studay/src/day09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/daily-studay/src/day09/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily-studay/src/day10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/daily-studay/src/day10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/net-studay/src/lesson01/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../net-studay/net-studay/src/lesson01/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/out/production/net-studay/lesson01/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../net-studay/out/production/net-studay/lesson01/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,59 +45,65 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../net-studay" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.3988604" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Test (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day27.Main" />
+      <module name="daily-studay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day27.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day23.Main" />
+      <option name="MAIN_CLASS_NAME" value="day28.Main" />
       <module name="daily-studay" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day23.*" />
+          <option name="PATTERN" value="day28.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day25.Main" />
-      <module name="daily-studay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day25.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="daily-studay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day21.Test" />
+      <option name="MAIN_CLASS_NAME" value="day27.Test" />
       <module name="daily-studay" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day21.*" />
+          <option name="PATTERN" value="day27.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day28.Test" />
+      <module name="daily-studay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day28.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,19 +148,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +213,11 @@
       <workItem from="1587827421065" duration="153000" />
       <workItem from="1587996793392" duration="4030000" />
       <workItem from="1588052839222" duration="4982000" />
+      <workItem from="1588063360323" duration="12000" />
+      <workItem from="1588134567432" duration="11015000" />
+      <workItem from="1588168482642" duration="335000" />
+      <workItem from="1588228085144" duration="2759000" />
+      <workItem from="1588314157979" duration="82000" />
     </task>
     <servers />
   </component>
@@ -227,46 +229,46 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="699" y="253" width="443" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1588054596470" />
-    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1587823539688">
+    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1588314236839">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1587823539688" />
-    <state width="746" height="141" key="GridCell.Tab.0.bottom" timestamp="1588061997139">
+    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1588314236839" />
+    <state width="800" height="159" key="GridCell.Tab.0.bottom" timestamp="1588231395674">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="746" height="141" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588061997139" />
-    <state width="746" height="141" key="GridCell.Tab.0.center" timestamp="1588061997139">
+    <state width="800" height="159" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588231395674" />
+    <state width="800" height="159" key="GridCell.Tab.0.center" timestamp="1588231395674">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="746" height="141" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588061997139" />
-    <state width="746" height="141" key="GridCell.Tab.0.left" timestamp="1588061997139">
+    <state width="800" height="159" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588231395674" />
+    <state width="800" height="159" key="GridCell.Tab.0.left" timestamp="1588231395674">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="746" height="141" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588061997139" />
-    <state width="746" height="141" key="GridCell.Tab.0.right" timestamp="1588061997139">
+    <state width="800" height="159" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588231395674" />
+    <state width="800" height="159" key="GridCell.Tab.0.right" timestamp="1588231395674">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="746" height="141" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588061997139" />
-    <state width="746" height="141" key="GridCell.Tab.1.bottom" timestamp="1588061997139">
+    <state width="800" height="159" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588231395674" />
+    <state width="800" height="231" key="GridCell.Tab.1.bottom" timestamp="1588146265620">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="746" height="141" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588061997139" />
-    <state width="746" height="141" key="GridCell.Tab.1.center" timestamp="1588061997139">
+    <state width="800" height="231" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588146265620" />
+    <state width="800" height="231" key="GridCell.Tab.1.center" timestamp="1588146265620">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="746" height="141" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1588061997139" />
-    <state width="746" height="141" key="GridCell.Tab.1.left" timestamp="1588061997139">
+    <state width="800" height="231" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1588146265620" />
+    <state width="800" height="231" key="GridCell.Tab.1.left" timestamp="1588146265620">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="746" height="141" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1588061997139" />
-    <state width="746" height="141" key="GridCell.Tab.1.right" timestamp="1588061997139">
+    <state width="800" height="231" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1588146265620" />
+    <state width="800" height="231" key="GridCell.Tab.1.right" timestamp="1588146265620">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="746" height="141" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1588061997139" />
-    <state x="-6" y="2" width="1239" height="711" key="SettingsEditor" timestamp="1587827525909">
+    <state width="800" height="231" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1588146265620" />
+    <state x="-6" y="2" width="1239" height="711" key="SettingsEditor" timestamp="1588168802820">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="-6" y="2" width="1239" height="711" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1587827525909" />
+    <state x="-6" y="2" width="1239" height="711" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1588168802820" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -373,6 +375,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/daily-studay/src/day27/Test.java</url>
+          <line>56</line>
+          <properties class="day27.Test" method="opreat2">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
