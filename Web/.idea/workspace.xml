@@ -46,7 +46,7 @@
       <recent name="F:\git\exercise\Web\thread-studay" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyBlockingQueue">
+  <component name="RunManager" selected="Application.MyTimer">
     <configuration name="BreadOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson5.BreadOperator" />
       <module name="thread-studay" />
@@ -75,13 +75,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SafeThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.SafeThread" />
+    <configuration name="MyThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.MyThreadPool" />
       <module name="thread-studay" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,13 +89,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.VolatileTest" />
+    <configuration name="MyTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.MyTimer" />
       <module name="thread-studay" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,19 +140,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SafeThread" />
-      <item itemvalue="Application.VolatileTest" />
       <item itemvalue="Application.VolatileTest2" />
       <item itemvalue="Application.BreadOperator" />
       <item itemvalue="Application.MyBlockingQueue" />
+      <item itemvalue="Application.MyThreadPool" />
+      <item itemvalue="Application.MyTimer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTimer" />
+        <item itemvalue="Application.MyThreadPool" />
         <item itemvalue="Application.MyBlockingQueue" />
         <item itemvalue="Application.BreadOperator" />
         <item itemvalue="Application.VolatileTest2" />
-        <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.SafeThread" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +177,7 @@
       <workItem from="1585548738682" duration="43000" />
       <workItem from="1588314293032" duration="5440000" />
       <workItem from="1588400261261" duration="7290000" />
+      <workItem from="1588486012962" duration="8500000" />
     </task>
     <servers />
   </component>
@@ -188,26 +189,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="649" y="243" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1588321802179" />
-    <state x="843" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1588404334936">
+    <state x="843" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1588488435284">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="843" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1588404334936" />
-    <state width="800" height="119" key="GridCell.Tab.0.bottom" timestamp="1588408797140">
+    <state x="843" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1588488435284" />
+    <state width="800" height="135" key="GridCell.Tab.0.bottom" timestamp="1588496443035">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="800" height="119" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588408797140" />
-    <state width="800" height="119" key="GridCell.Tab.0.center" timestamp="1588408797140">
+    <state width="800" height="135" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588496443035" />
+    <state width="800" height="135" key="GridCell.Tab.0.center" timestamp="1588496443035">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="800" height="119" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588408797140" />
-    <state width="800" height="119" key="GridCell.Tab.0.left" timestamp="1588408797140">
+    <state width="800" height="135" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588496443035" />
+    <state width="800" height="135" key="GridCell.Tab.0.left" timestamp="1588496443035">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="800" height="119" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588408797140" />
-    <state width="800" height="119" key="GridCell.Tab.0.right" timestamp="1588408797140">
+    <state width="800" height="135" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588496443035" />
+    <state width="800" height="135" key="GridCell.Tab.0.right" timestamp="1588496443035">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="800" height="119" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588408797140" />
+    <state width="800" height="135" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588496443035" />
   </component>
   <component name="masterDetails">
     <states>
