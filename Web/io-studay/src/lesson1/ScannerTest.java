@@ -11,7 +11,7 @@ public class ScannerTest {
         //2、满足一定条件才返回：
         // hasNext满足换行符、空格等特殊字符
         //hasNextLine满足换行符
-        //hasNextInt读取到不满足int的字符
+        //hasNextInt读取到不满足int的字符。
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()){
             System.out.println(sc.next());
