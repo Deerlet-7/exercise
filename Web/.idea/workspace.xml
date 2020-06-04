@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecc10aed-9283-4d2c-85d2-90311d8fe13c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dailyEx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dailyEx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../win01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../win01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <recent name="F:\git\exercise\Web\thread-studay" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTimer">
+  <component name="RunManager" selected="Application.ScannerTest">
     <configuration name="BreadOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson5.BreadOperator" />
       <module name="thread-studay" />
@@ -104,13 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.VolatileTest2" />
-      <module name="thread-studay" />
+    <configuration name="ScannerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson1.ScannerTest" />
+      <module name="io-studay" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.VolatileTest2" />
       <item itemvalue="Application.BreadOperator" />
       <item itemvalue="Application.MyBlockingQueue" />
       <item itemvalue="Application.MyThreadPool" />
       <item itemvalue="Application.MyTimer" />
+      <item itemvalue="Application.ScannerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScannerTest" />
         <item itemvalue="Application.MyTimer" />
         <item itemvalue="Application.MyThreadPool" />
         <item itemvalue="Application.MyBlockingQueue" />
         <item itemvalue="Application.BreadOperator" />
-        <item itemvalue="Application.VolatileTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +183,7 @@
       <workItem from="1589032850694" duration="83000" />
       <workItem from="1590737837098" duration="1498000" />
       <workItem from="1591004255274" duration="83000" />
+      <workItem from="1591249088379" duration="3910000" />
     </task>
     <servers />
   </component>
@@ -201,26 +203,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="566" y="120" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1589032930943" />
-    <state width="800" height="135" key="GridCell.Tab.0.bottom" timestamp="1588496443035">
+    <state width="745" height="135" key="GridCell.Tab.0.bottom" timestamp="1591266778763">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="800" height="135" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588496443035" />
-    <state width="800" height="135" key="GridCell.Tab.0.center" timestamp="1588496443035">
+    <state width="745" height="135" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591266778763" />
+    <state width="745" height="135" key="GridCell.Tab.0.center" timestamp="1591266778762">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="800" height="135" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588496443035" />
-    <state width="800" height="135" key="GridCell.Tab.0.left" timestamp="1588496443035">
+    <state width="745" height="135" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591266778762" />
+    <state width="745" height="135" key="GridCell.Tab.0.left" timestamp="1591266778762">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="800" height="135" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588496443035" />
-    <state width="800" height="135" key="GridCell.Tab.0.right" timestamp="1588496443035">
+    <state width="745" height="135" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591266778762" />
+    <state width="745" height="135" key="GridCell.Tab.0.right" timestamp="1591266778763">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="800" height="135" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588496443035" />
-    <state x="56" y="23" key="new project wizard" timestamp="1591004336575">
+    <state width="745" height="135" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591266778763" />
+    <state x="56" y="0" key="new project wizard" timestamp="1591250731489">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="56" y="23" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1591004336575" />
+    <state x="56" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1591250731489" />
   </component>
   <component name="masterDetails">
     <states>
