@@ -39,9 +39,11 @@ public class Server {
                 // PrintWriter out = new PrintWriter(client.getOutputStream());//数据发送到系统的缓存区 下一步还要进行数据发送到网络远程主机操作
                 String str;
                 //阻塞等待客户端数据的输入
-                while ((str = in.readLine()) != null){//io流在结束时，返回才是null
+                int i = 1;
+                while ((str = in.readLine()) != null ){//io流在结束时，返回才是null
                     System.out.println(str);
-                    out.println("是啦啦啦");
+                    out.println(i+"是啦啦啦");
+                    i++;
                 }
             } catch (IOException e) {
                 e.printStackTrace();

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.Scanner;
 
 /**
  * Created by Deerlet-7 on 2020/4/26 13:37
@@ -19,7 +20,16 @@ public class Client {
         Socket client = new Socket(HOST,PORT);
         BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
         PrintWriter out = new PrintWriter(client.getOutputStream(),true);
-        out.println("我司案发");
+        Scanner scanner = new Scanner(System.in);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (scanner.hasNextLine()){
+                    String line = scanner.nextLine();
+                    out.println(line);
+                }
+            }
+        }).start();
         String str;
         //阻塞等待服务端
         while ((str = in.readLine()) != null){

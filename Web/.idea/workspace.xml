@@ -4,7 +4,40 @@
     <list default="true" id="ecc10aed-9283-4d2c-85d2-90311d8fe13c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../win01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../win01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-studay/io-studay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/io-studay/io-studay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-studay/thread-studay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-studay/thread-studay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/artifacts/maven_test_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/artifacts/maven_test_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/maven-test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test/WEB-INF/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/net-studay/net-studay.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/net-studay/src/lesson01/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/net-studay/src/lesson01/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/out/production/net-studay/lesson01/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/out/production/net-studay/lesson01/Server$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-studay/out/production/net-studay/lesson01/Server.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -48,70 +81,14 @@
       <recent name="F:\git\exercise\Web\thread-studay" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScannerTest">
-    <configuration name="BreadOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.BreadOperator" />
-      <module name="thread-studay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.MyBlockingQueue" />
-      <module name="thread-studay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.MyThreadPool" />
-      <module name="thread-studay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.MyTimer" />
-      <module name="thread-studay" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScannerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.ScannerTest" />
+  <component name="RunManager" selected="Application.SerializableTest">
+    <configuration name="SerializableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.SerializableTest" />
       <module name="io-studay" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,6 +98,74 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOperatorTest.copyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io-studay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson2" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.FileOperatorTest" />
+      <option name="METHOD_NAME" value="copyFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOperatorTest.fileRead_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io-studay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson2" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.FileOperatorTest" />
+      <option name="METHOD_NAME" value="fileRead_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOperatorTest.fileRead_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io-studay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson2" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.FileOperatorTest" />
+      <option name="METHOD_NAME" value="fileRead_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOperatorTest.fileWrite_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io-studay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson2" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.FileOperatorTest" />
+      <option name="METHOD_NAME" value="fileWrite_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,19 +187,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BreadOperator" />
-      <item itemvalue="Application.MyBlockingQueue" />
-      <item itemvalue="Application.MyThreadPool" />
-      <item itemvalue="Application.MyTimer" />
-      <item itemvalue="Application.ScannerTest" />
+      <item itemvalue="Application.SerializableTest" />
+      <item itemvalue="JUnit.FileOperatorTest.fileRead_1" />
+      <item itemvalue="JUnit.FileOperatorTest.fileRead_2" />
+      <item itemvalue="JUnit.FileOperatorTest.fileWrite_1" />
+      <item itemvalue="JUnit.FileOperatorTest.copyFile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScannerTest" />
-        <item itemvalue="Application.MyTimer" />
-        <item itemvalue="Application.MyThreadPool" />
-        <item itemvalue="Application.MyBlockingQueue" />
-        <item itemvalue="Application.BreadOperator" />
+        <item itemvalue="Application.SerializableTest" />
+        <item itemvalue="JUnit.FileOperatorTest.copyFile" />
+        <item itemvalue="JUnit.FileOperatorTest.fileWrite_1" />
+        <item itemvalue="JUnit.FileOperatorTest.fileRead_2" />
+        <item itemvalue="JUnit.FileOperatorTest.fileRead_1" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +229,8 @@
       <workItem from="1590737837098" duration="1498000" />
       <workItem from="1591004255274" duration="83000" />
       <workItem from="1591249088379" duration="3910000" />
+      <workItem from="1591333441456" duration="13387000" />
+      <workItem from="1591352727693" duration="1985000" />
     </task>
     <servers />
   </component>
@@ -195,107 +242,53 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="649" y="243" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1588321802179" />
-    <state x="843" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1588488435284">
+    <state x="453" y="41" width="813" height="628" key="#Project_Structure" timestamp="1591352818185">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="843" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1588488435284" />
-    <state x="566" y="120" key="FileChooserDialogImpl" timestamp="1589032930943">
+    <state x="453" y="41" width="813" height="628" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1591352818185" />
+    <state x="749" y="159" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591345165069">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="566" y="120" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1589032930943" />
-    <state width="745" height="135" key="GridCell.Tab.0.bottom" timestamp="1591266778763">
+    <state x="749" y="159" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1591345165069" />
+    <state x="843" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1591353985012">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="745" height="135" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591266778763" />
-    <state width="745" height="135" key="GridCell.Tab.0.center" timestamp="1591266778762">
+    <state x="843" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1591353985012" />
+    <state x="622" y="37" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1591337642166">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="745" height="135" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591266778762" />
-    <state width="745" height="135" key="GridCell.Tab.0.left" timestamp="1591266778762">
+    <state x="622" y="37" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.720@0.0.1280.720" timestamp="1591337642166" />
+    <state x="496" y="101" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1591337652458">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="745" height="135" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591266778762" />
-    <state width="745" height="135" key="GridCell.Tab.0.right" timestamp="1591266778763">
+    <state x="496" y="101" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.720@0.0.1280.720" timestamp="1591337652458" />
+    <state x="566" y="120" key="FileChooserDialogImpl" timestamp="1591354713056">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="745" height="135" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591266778763" />
-    <state x="56" y="0" key="new project wizard" timestamp="1591250731489">
+    <state x="566" y="120" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1591354713056" />
+    <state width="1237" height="133" key="GridCell.Tab.0.bottom" timestamp="1591352702508">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="56" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1591250731489" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>thread-studay</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1237" height="133" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591352702508" />
+    <state width="1237" height="133" key="GridCell.Tab.0.center" timestamp="1591352702508">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="133" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591352702508" />
+    <state width="1237" height="133" key="GridCell.Tab.0.left" timestamp="1591352702508">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="133" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591352702508" />
+    <state width="1237" height="133" key="GridCell.Tab.0.right" timestamp="1591352702508">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="133" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591352702508" />
+    <state x="56" y="0" key="new project wizard" timestamp="1591353322572">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="56" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1591353322572" />
+    <state x="447" y="44" width="672" height="678" key="search.everywhere.popup" timestamp="1591353173925">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="447" y="44" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1591353173925" />
   </component>
 </project>
