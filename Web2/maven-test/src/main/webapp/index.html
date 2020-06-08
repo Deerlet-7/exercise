@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>弄得我v你</title>
+    <title>test</title>
 </head>
 <body>
-成都v啊v阿飞发到饭否丰富
+<!--发送http请求到服务器后台。
+      url=action地址，请求方法=method，请求类型=enctype
+      请求数据是表单中的组件属性name作为key-->
+<form action="login" method="post" enctype="application/x-www-form-urlencoded">
+    用户名：<input type="text" name="username" placeholder="请输入用户名">
+    密码：<input type="password" name="password" placeholder="请输入密码">
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>
