@@ -1,6 +1,5 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.Statement;
 import java.util.Scanner;
 
 /**
@@ -36,7 +35,6 @@ public class BlogSystem {
         Scanner sc = new Scanner(System.in);
         System.out.println("输入用户名");
         String username = sc.nextLine();
-        Statement statement
         sc.close();
     }
 }
