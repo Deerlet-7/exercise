@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JDBC-studay.iml" filepath="$PROJECT_DIR$/JDBC-studay.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JDBC-studay2/JDBC-studay2.iml" filepath="$PROJECT_DIR$/../JDBC-studay2/JDBC-studay2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project-studay/project-studay.iml" filepath="$PROJECT_DIR$/../project-studay/project-studay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project-studay/talk-room/talk-room.iml" filepath="$PROJECT_DIR$/../project-studay/talk-room/talk-room.iml" />
     </modules>
   </component>
 </project>
