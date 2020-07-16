@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecc10aed-9283-4d2c-85d2-90311d8fe13c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC-studay/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC-studay/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io-studay/io-studay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/io-studay/io-studay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-studay/thread-studay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-studay/thread-studay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/$CACHE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/artifacts/maven_test_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/artifacts/maven_test_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/maven-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test/WEB-INF/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/maven-test/target/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/net-studay/net-studay.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/net-studay/src/lesson01/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/net-studay/src/lesson01/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/out/production/net-studay/lesson01/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/out/production/net-studay/lesson01/Server$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../net-studay/out/production/net-studay/lesson01/Server.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-studay" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -231,6 +197,8 @@
       <workItem from="1591249088379" duration="3910000" />
       <workItem from="1591333441456" duration="13387000" />
       <workItem from="1591352727693" duration="1985000" />
+      <workItem from="1594896062651" duration="24000" />
+      <workItem from="1594896151523" duration="107000" />
     </task>
     <servers />
   </component>
@@ -262,10 +230,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="496" y="101" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.720@0.0.1280.720" timestamp="1591337652458" />
-    <state x="566" y="120" key="FileChooserDialogImpl" timestamp="1591354713056">
+    <state x="566" y="120" key="FileChooserDialogImpl" timestamp="1594896216315">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="566" y="120" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1591354713056" />
+    <state x="566" y="120" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1594896216315" />
     <state width="1237" height="133" key="GridCell.Tab.0.bottom" timestamp="1591352702508">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -282,10 +250,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="133" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591352702508" />
-    <state x="56" y="0" key="new project wizard" timestamp="1591353322572">
+    <state x="56" y="0" key="new project wizard" timestamp="1594896198653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="56" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1591353322572" />
+    <state x="56" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1594896198653" />
     <state x="447" y="44" width="672" height="678" key="search.everywhere.popup" timestamp="1591353173925">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
