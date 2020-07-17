@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecc10aed-9283-4d2c-85d2-90311d8fe13c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../JDBC-studay/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC-studay/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ecc10aed-9283-4d2c-85d2-90311d8fe13c" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-studay" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JDBC-studay2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -199,6 +196,7 @@
       <workItem from="1591352727693" duration="1985000" />
       <workItem from="1594896062651" duration="24000" />
       <workItem from="1594896151523" duration="107000" />
+      <workItem from="1594967662095" duration="49000" />
     </task>
     <servers />
   </component>
@@ -230,10 +228,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="496" y="101" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.720@0.0.1280.720" timestamp="1591337652458" />
-    <state x="566" y="120" key="FileChooserDialogImpl" timestamp="1594896216315">
+    <state x="566" y="120" key="FileChooserDialogImpl" timestamp="1594967708397">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="566" y="120" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1594896216315" />
+    <state x="566" y="120" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1594967708397" />
     <state width="1237" height="133" key="GridCell.Tab.0.bottom" timestamp="1591352702508">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
