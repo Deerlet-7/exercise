@@ -4,12 +4,9 @@ import java.util.List;
 import java.util.Scanner;
 /**
  * Created by Deerlet-7 on 2020/7/17 17:00
+ * 命令行版本的博客系统
  */
 public class Main {
-    //当前的登录用户信息
-    //没有登陆 user = null
-    //否则，指向具体的用户对象
-//    private static User user = null;
     private static List<String> featureList = new ArrayList<>();
     private static List<Action> actionList = new ArrayList<>();
     private static void initFeatureList(){
@@ -21,14 +18,12 @@ public class Main {
         featureList.add("评论指定文章-要求先登录");
         featureList.add("点赞指定文章-要求先登录");
     }
-    static class UserRegisterAction implements Action{
-        @Override
-        public void run() {
-            userRegister();
-        }
-    }
     private static void initActionList(){
         actionList.add(new UserRegisterAction());
+        actionList.add(new UserLoginAction());
+        actionList.add(new ArticleListAction());
+        actionList.add(new ArticlePublishAction());
+        actionList.add(new ArticleDetailAction());
     }
     public static void main(String[] args) {
         initFeatureList();
@@ -38,6 +33,7 @@ public class Main {
             showMenu();
             showPrompt();
             int select = scanner.nextInt();
+            //分发
             doAcyion(select);
         }
     }
@@ -63,8 +59,5 @@ public class Main {
             System.out.printf("  %d. %s%n",i+1,featureList.get(i));
         }
         System.out.println("  0. 退出");
-    }
-    private static void userRegister(){
-        System.out.println("用户注册：");
     }
 }

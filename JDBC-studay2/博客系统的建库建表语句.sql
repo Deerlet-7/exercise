@@ -19,7 +19,7 @@ content text not null comment '文章正文'
 --评论表
 create table comments(
 id int primary key auto_increment comment '自增id',
-author_id int not null comment '评论者id',
+user_id int not null comment '评论者id',
 article_id int not null comment '文章id',
 published_at datetime not null comment '评论时间',
 content varchar(200) not null comment '评论正文'
