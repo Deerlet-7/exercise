@@ -7,14 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="maven-test" />
-        <module name="servlet-blog" />
+        <module name="blog" />
         <module name="book-sys" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="blog" target="1.8" />
       <module name="book-sys" target="1.8" />
       <module name="maven-test" target="1.8" />
       <module name="servlet-blog" target="1.8" />
+      <module name="servlet-bolg" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
