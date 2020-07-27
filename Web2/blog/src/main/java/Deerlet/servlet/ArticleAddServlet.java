@@ -19,6 +19,7 @@ public class ArticleAddServlet extends AbstractBaseServlet {
         //http请求Content-Type为application/json，请求时json字符串，需要反序列化为java对象
         //需要检查json字符串的键必须和java类型中的属性匹配
         //json字符串在Java中没有，报异常
+        //文章新增：包括title，content，userAccout
         Article article = JSONUtil.deserialize(is,Article.class);
         //模拟数据库插入数据操作
         System.out.println("===========================\n"+article);
