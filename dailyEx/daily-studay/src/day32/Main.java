@@ -16,7 +16,7 @@ public class Main {
             int[] A2 = toIntArray(A);
             for (int i = 0; i < P2.length; i++) {
                 if(P2[i]>A2[i]){
-                    System.out.println(countMony(A2,P2));
+                    System.out.println("-"+countMony(A2,P2));
                 }else {
                     System.out.println(countMony(P2,A2));
                 }
