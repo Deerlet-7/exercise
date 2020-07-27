@@ -19,7 +19,7 @@ public class ArticleDetailServlet extends AbstractBaseServlet{
         String id = req.getParameter("id");
         Integer articleId;
         try {
-            articleId = Integer.parseInt("id");
+            articleId = Integer.parseInt(id);
         } catch (Exception e) {
             throw new ClientException("001","请求参数错误：id="+id);
         }
