@@ -1,5 +1,7 @@
 package Deerlet.servlet;
 
+import Deerlet.dao.ArticleDAO;
+import Deerlet.exception.BusinessException;
 import Deerlet.model.Article;
 import Deerlet.uti.JSONUtil;
 
@@ -18,8 +20,11 @@ public class ArticleUpdateServlet extends AbstractBaseServlet{
         //文章修改：包含id，title，content
         InputStream is = req.getInputStream();
         Article article = JSONUtil.deserialize(is,Article.class);
+        System.out.println("=======================================\n");
         //模拟修改数据
-        System.out.println("修改");
+        int num = ArticleDAO.update(article);
+        if(num != 1)
+            throw new BusinessException("004","文章修改出错。");
         return null;
     }
 }

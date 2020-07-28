@@ -1,5 +1,8 @@
 package Deerlet.servlet;
 
+import Deerlet.dao.ArticleDAO;
+import Deerlet.exception.BusinessException;
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -13,6 +16,9 @@ public class ArticleDeleteServlet extends AbstractBaseServlet{
     public Object process(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         String idsString = req.getParameter("ids");
         int[] ids = parseIds(idsString);
+        int num = ArticleDAO.delete(ids);
+        if(num == 0)
+            throw new BusinessException("005","文章删除出错。");
         return null;
     }
     public static int[] parseIds(String idsString){

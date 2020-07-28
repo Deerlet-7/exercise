@@ -1,5 +1,7 @@
 package Deerlet.servlet;
 
+import Deerlet.dao.ArticleDAO;
+import Deerlet.exception.BusinessException;
 import Deerlet.model.Article;
 import Deerlet.uti.JSONUtil;
 
@@ -21,8 +23,11 @@ public class ArticleAddServlet extends AbstractBaseServlet {
         //json字符串在Java中没有，报异常
         //文章新增：包括title，content，userAccout
         Article article = JSONUtil.deserialize(is,Article.class);
-        //模拟数据库插入数据操作
         System.out.println("===========================\n"+article);
+        int num = ArticleDAO.insert(article);
+        if(num != 1)
+            throw new BusinessException("001","插入文章错误");
+        //模拟数据库插入数据操作
         return null;
     }
 }

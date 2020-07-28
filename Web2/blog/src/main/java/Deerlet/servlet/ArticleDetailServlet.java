@@ -1,12 +1,13 @@
 package Deerlet.servlet;
 
+import Deerlet.dao.ArticleDAO;
+import Deerlet.exception.BusinessException;
 import Deerlet.exception.ClientException;
 import Deerlet.model.Article;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Date;
 
 /**
  * Created by Deerlet-7 on 2020/7/21 17:10
@@ -23,12 +24,15 @@ public class ArticleDetailServlet extends AbstractBaseServlet{
         } catch (Exception e) {
             throw new ClientException("001","请求参数错误：id="+id);
         }
-        if(articleId == 1){
+        Article article = ArticleDAO.query(articleId);
+        if(article == null)
+            throw new BusinessException("002","查询不到文章详情 id+"+articleId);
+        /*if(articleId == 1){
             int i = 11/0;
-        }
-        return testData();//测试代码，以后替换为数据库根据文章id查询文章信息操作
+        }*/
+        return article;//测试代码，以后替换为数据库根据文章id查询文章信息操作
     }
-    public static Article testData(){
+/*    public static Article testData(){
         Article a1 = new Article();
         a1.setId(1);
         a1.setTitle("好啊");
@@ -36,5 +40,5 @@ public class ArticleDetailServlet extends AbstractBaseServlet{
         a1.setUserId(1);
         a1.setCreatTime(new Date());
         return a1;
-    }
+    }*/
 }
