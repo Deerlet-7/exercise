@@ -1,4 +1,4 @@
-package Deerlet.util;
+package Deerlet.uti;
 
 import Deerlet.model.Article;
 import com.fasterxml.jackson.databind.ObjectMapper;

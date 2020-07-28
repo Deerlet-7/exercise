@@ -1,18 +1,11 @@
 package Deerlet.servlet;
 
+import Deerlet.dao.ArticleDAO;
 import Deerlet.model.Article;
-import Deerlet.model.Result;
-import Deerlet.uti.JSONUtil;
 
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.StringWriter;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -20,7 +13,7 @@ import java.util.List;
  */
 @WebServlet("/articleList")
 public class ArticleListServlet extends AbstractBaseServlet {
-    @Override
+/*    @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("UTF-8");
         resp.setCharacterEncoding("UTF-8");
@@ -42,15 +35,17 @@ public class ArticleListServlet extends AbstractBaseServlet {
         PrintWriter pw = resp.getWriter();
         pw.println(JSONUtil.serialize(result));
         pw.flush();
-    }
+    }*/
 
     @Override
     public Object process(HttpServletRequest req, HttpServletResponse resp) throws Exception {
-        return testData();
+        List<Article> articles = ArticleDAO.list();
+        return articles;
+        //return testData();
     }
 
     //测试数据
-    public static List<Article> testData(){
+/*    public static List<Article> testData(){
         List<Article> articles = new ArrayList<>();
         Article a1 = new Article();
         a1.setId(1);
@@ -67,5 +62,5 @@ public class ArticleListServlet extends AbstractBaseServlet {
         articles.add(a1);
         articles.add(a2);
         return articles;
-    }
+    }*/
 }
