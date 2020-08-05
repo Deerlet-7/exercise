@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="maven-test" />
-        <module name="blog" />
         <module name="book-sys" />
+        <module name="JVM-studay" />
+        <module name="blog" />
+        <module name="maven-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="blog" target="1.8" />
       <module name="book-sys" target="1.8" />
+      <module name="JVM-studay" target="1.8" />
       <module name="maven-test" target="1.8" />
       <module name="servlet-blog" target="1.8" />
       <module name="servlet-bolg" target="1.8" />
