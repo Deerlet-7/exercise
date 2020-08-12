@@ -1,0 +1,11 @@
+﻿生成启动时间为 2020/8/10 0:20:18。
+     1>项目“F:\git\exercise\ex200809huiwen\ex200809huiwen\ex200809huiwen.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ht_huiwen.c
+         ht_huiwen.c
+     1>f:\git\exercise\ex200809huiwen\ex200809huiwen\ht_huiwen.c(4): error C2075: “a”: 数组初始化需要大括号
+     1>已完成生成项目“F:\git\exercise\ex200809huiwen\ex200809huiwen\ex200809huiwen.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.16
