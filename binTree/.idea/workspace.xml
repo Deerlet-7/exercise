@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79353cb8-e41f-4b07-804a-81aa39a6e4b7" name="Default" comment="" />
+    <list default="true" id="79353cb8-e41f-4b07-804a-81aa39a6e4b7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../JDBC-studay2/JDBC-studay2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC-studay2/JDBC-studay2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-py/src0709/070901.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test-py/src0709/070901.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +106,7 @@
       <workItem from="1587716977587" duration="1352000" />
       <workItem from="1587823543229" duration="852000" />
       <workItem from="1591958489946" duration="25000" />
+      <workItem from="1594998914104" duration="11000" />
     </task>
     <servers />
   </component>
@@ -113,10 +118,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" width="658" height="720" key="#BinTree/0.0.1280.720@0.0.1280.720" timestamp="1587823748051" />
-    <state x="714" y="119" key="FileChooserDialogImpl" timestamp="1591958512977">
+    <state x="714" y="119" key="FileChooserDialogImpl" timestamp="1594998922767">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="714" y="119" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1591958512977" />
+    <state x="714" y="119" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1594998922767" />
     <state width="676" height="65" key="GridCell.Tab.0.bottom" timestamp="1587824395401">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

@@ -67,25 +67,5 @@ public class TestDemo1 {
         mySingnalList.addLast(2);
         mySingnalList.addLast(1);
         mySingnalList.display();
-        MySingnalList mySingnalList2 = new MySingnalList();
-        mySingnalList2.addLast(1);
-        mySingnalList2.addLast(2);
-        mySingnalList2.addLast(3);
-        mySingnalList2.addLast(2);
-        mySingnalList2.addLast(1);
-        mySingnalList.display();
-        ListNode node = getIntersectionNode(mySingnalList.head,mySingnalList2.head);
-        System.out.println(node.data);
-
-
-
-//        System.out.println(mySingnalList.contains(0));
-//        System.out.println(mySingnalList.size());
-//        mySingnalList.addIndex(3,8);
-//        mySingnalList.display();
-//        System.out.println(mySingnalList.chkPalindrome());
-        System.out.println(mySingnalList.hasCycle());
-//        mySingnalList.partion(3);
-//        mySingnalList.display();
     }
 }
