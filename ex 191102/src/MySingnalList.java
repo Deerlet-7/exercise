@@ -1,3 +1,5 @@
+import javax.xml.soap.Node;
+
 class ListNode{
     public int data;
     public ListNode next;
@@ -71,13 +73,88 @@ public class MySingnalList {
         }
         return false;
     }
+    private ListNode searchPrev(int key){
+        ListNode prev = this.head;
+        while (prev.next != null){
+            if(prev.next.data == key){
+                return prev;
+            }else {
+                prev = prev.next;
+            }
+        }
+        return null;
+    }
     //删除第一次出现关键字为key的节点
     public void remove(int key){
-
+        if(this.head == null){
+            return;
+        }
+        if(this.head.data == key){
+            this.head = this.head.next;
+            return;
+        }
+        ListNode prev = searchPrev(key);
+        if(prev == null){
+            System.out.println("没有这个节点！");
+            return;
+        }
+        ListNode del = prev.next;
+        prev.next = del.next;
     }
     //删除所有值为key的节点
     public void removeAllKey(int key){
-
+        if(this.head == null){
+            return;
+        }
+        ListNode prev = this.head;
+        ListNode cur = this.head.next;
+        while (cur != null){
+            if(cur.data == key){
+                prev.next = cur.next;
+                cur = cur.next;
+            }else {
+                prev = cur;
+                cur = cur.next;
+            }
+        }
+        if(this.head.data == key){
+            this.head = this.head.next;
+        }
+    }
+    //输出中间节点 两个的话输出第二个
+    public ListNode middleNode(){
+        ListNode fast = this.head;
+        ListNode slow = this.head;
+        while (fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+    //得到到数第k个节点
+    public ListNode FindKthToTail(int k){
+        if(k <= 0){
+            System.out.println("k不合法");
+            return null;
+        }
+        if(head == null)
+            return null;
+        ListNode fast = this.head;
+        ListNode slow = this.head;
+        while (k-1 > 0){
+            if(fast.next != null){
+                fast = fast.next;
+                k--;
+            }else {
+                System.out.println("没有这个节点");
+                return null;
+            }
+        }
+        while (fast.next != null){
+            fast = fast.next;
+            slow = slow.next;
+        }
+        return slow;
     }
     //得到单链表的长度
     public int size(){
@@ -102,7 +179,7 @@ public class MySingnalList {
                 //第一次插入
                 if (beforeStart == null) {
                     beforeStart = cur;
-                    beforeEnd = beforeStart;
+                    beforeEnd = cur;
                 } else {
                     beforeEnd.next = cur;
                     beforeEnd = beforeEnd.next;
@@ -111,7 +188,7 @@ public class MySingnalList {
                 //第一次插入
                 if (afterStart == null) {
                     afterStart = cur;
-                    afterEnd = afterStart;
+                    afterEnd = cur;
                 } else {
                     afterEnd.next = cur;
                     afterEnd = afterEnd.next;
@@ -123,7 +200,10 @@ public class MySingnalList {
             return afterStart;
         }
         beforeEnd.next = afterStart;
-        return beforeEnd;
+        if(afterStart != null){
+            afterEnd.next = null;
+        }
+        return beforeStart;
     }
     //删除重复的节点
     public ListNode deleteDuplication() {
@@ -147,13 +227,18 @@ public class MySingnalList {
                 tmp = tmp.next;
             }
         }
+        tmp.next = null;
         return node.next;
     }
     //回文
     public boolean chkPalindrome() {
+        if(this.head == null)
+            return false;
+        if(this.head.next == null)
+            return true;
         ListNode fast = this.head;
         ListNode slow = this.head;
-
+        //先找链表中间节点
         while (fast != null && fast.next!=null) {
             fast = fast.next.next;
             slow = slow.next;
@@ -169,10 +254,12 @@ public class MySingnalList {
         }
         //slow往前    head 往后  .data不一样 返回false
         while (this.head != slow ){
-            if(head.data != slow.data){
+            assert slow != null;
+            if(slow.data != this.head.data){
                 return false;
             }
-            if(this.head.data == slow.data){
+            //判断偶数情况下的中间两个节点
+            if(this.head.next == slow){
                 return true;
             }
                 this.head = this.head.next;
@@ -185,23 +272,20 @@ public class MySingnalList {
     public boolean hasCycle(){
         ListNode fast = this.head;
         ListNode slow = this.head;
-        while (fast.next!=null||fast!=null) {
+        while (fast!=null&&fast.next!=null) {
             fast = fast.next.next;
             slow = slow.next;
             if(fast == slow){
-                break;
+                return true;
             }
         }
-        if(fast.next==null||fast==null){
-            return false;
-        }
-        return true;
+        return false;
     }
     //判断环的入口
     public ListNode detectCycle(){
         ListNode fast = this.head;
         ListNode slow = this.head;
-        while (fast.next!=null||fast!=null){
+        while (fast!=null&&fast.next!=null){
             fast = fast.next.next;
             slow = slow.next;
             if(fast == slow){
@@ -218,42 +302,22 @@ public class MySingnalList {
         }
         return fast;
     }
-    public static void createCut(ListNode headA,ListNode headB) {
-        headA.next.next = headB.next.next.next;
-    }
-    public ListNode mergeTwoLists(ListNode headA, ListNode headB) {
-        ListNode node = new ListNode(-1);
-        ListNode tmp = node;
-
-        while (headA != null && headB != null) {
-            if(headA.data < headB.data) {
-                tmp.next = headA;
-                headA = headA.next;
-                tmp = tmp.next;
-            }else {
-                tmp.next = headB;
-                headB = headB.next;
-                tmp = tmp.next;
-            }
-        }
-        if(headA != null) {
-            tmp.next = headA;
-        }
-        if(headB != null) {
-            tmp.next = headB;
-        }
-        return node.next;
-    }
     //反转
     public ListNode reverseList(ListNode head) {
         ListNode cur = this.head;
-        ListNode curNext = cur.next;
-        ListNode tmp = this.head;
-        while (tmp != null){
-            tmp = tmp.next;
-
+        ListNode curNext = null;
+        ListNode prev = this.head;
+        ListNode newHead = null;
+        while (cur != null){
+            curNext = cur.next;
+            if (curNext == null){
+                cur = newHead;
+            }
+            cur.next = prev;
+            prev = cur;
+            cur = curNext;
         }
-        return tmp;
+        return newHead;
     }
     public void display(){
         ListNode cur = this.head;
@@ -264,7 +328,7 @@ public class MySingnalList {
         System.out.println();
     }
     public void clear(){
-
+        this.head = null;
     }
 
 }//单链表
