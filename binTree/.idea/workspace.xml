@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79353cb8-e41f-4b07-804a-81aa39a6e4b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../JDBC-studay2/JDBC-studay2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC-studay2/JDBC-studay2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test-py/src0709/070901.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test-py/src0709/070901.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex 191113/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex 191113/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dailyEx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -107,6 +107,7 @@
       <workItem from="1587823543229" duration="852000" />
       <workItem from="1591958489946" duration="25000" />
       <workItem from="1594998914104" duration="11000" />
+      <workItem from="1597904303615" duration="8623000" />
     </task>
     <servers />
   </component>
@@ -114,29 +115,41 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="658" height="720" key="#BinTree" timestamp="1587823748051">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="0" y="0" width="658" height="720" key="#BinTree/0.0.1280.720@0.0.1280.720" timestamp="1587823748051" />
     <state x="714" y="119" key="FileChooserDialogImpl" timestamp="1594998922767">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="714" y="119" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1594998922767" />
-    <state width="676" height="65" key="GridCell.Tab.0.bottom" timestamp="1587824395401">
+    <state width="496" height="219" key="GridCell.Tab.0.bottom" timestamp="1597924383185">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="676" height="65" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587824395401" />
-    <state width="676" height="65" key="GridCell.Tab.0.center" timestamp="1587824395401">
+    <state width="496" height="219" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1597924383185" />
+    <state width="496" height="219" key="GridCell.Tab.0.center" timestamp="1597924383185">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="676" height="65" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587824395401" />
-    <state width="676" height="65" key="GridCell.Tab.0.left" timestamp="1587824395400">
+    <state width="496" height="219" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1597924383185" />
+    <state width="496" height="219" key="GridCell.Tab.0.left" timestamp="1597924383185">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="676" height="65" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587824395400" />
-    <state width="676" height="65" key="GridCell.Tab.0.right" timestamp="1587824395401">
+    <state width="496" height="219" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1597924383185" />
+    <state width="496" height="219" key="GridCell.Tab.0.right" timestamp="1597924383185">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="676" height="65" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587824395401" />
+    <state width="496" height="219" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1597924383185" />
+    <state width="496" height="219" key="GridCell.Tab.1.bottom" timestamp="1597924383186">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="496" height="219" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1597924383186" />
+    <state width="496" height="219" key="GridCell.Tab.1.center" timestamp="1597924383185">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="496" height="219" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1597924383185" />
+    <state width="496" height="219" key="GridCell.Tab.1.left" timestamp="1597924383185">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="496" height="219" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1597924383185" />
+    <state width="496" height="219" key="GridCell.Tab.1.right" timestamp="1597924383185">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="496" height="219" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1597924383185" />
   </component>
 </project>

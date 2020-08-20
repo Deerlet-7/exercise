@@ -1,3 +1,5 @@
+import com.sun.corba.se.impl.legacy.connection.USLPort;
+
 import java.util.*;
 
 //二叉树孩子表示法
@@ -11,9 +13,10 @@ class BTNode{
 }
 public class BinTree {
     private BTNode root = null;//引用二叉树根节点
+    private int index = 0;//仅在创建二叉树时使用
     //先快速创建一颗二叉树
-    public BinTree(){
-        BTNode n1 = new BTNode(1);
+    public BinTree(int[] array,int invalid){
+/*        BTNode n1 = new BTNode(1);
         BTNode n2 = new BTNode(2);
         BTNode n3 = new BTNode(3);
         BTNode n4 = new BTNode(4);
@@ -24,7 +27,20 @@ public class BinTree {
         n1.right = n4;
         n2.left = n3;
         n4.left = n5;
-        n4.right = n6;
+        n4.right = n6;*/
+        root = createBinTree(array,invalid);
+    }
+    //创建二叉树
+    BTNode createBinTree(int[] array,int invalid){
+        BTNode newRoot = null;
+        if(index < array.length && array[index] != invalid){
+            newRoot = new BTNode(array[index]);
+            ++index;
+            newRoot.left = createBinTree(array,invalid);
+            ++index;
+            newRoot.right = createBinTree(array,invalid);
+        }
+        return newRoot;
     }
     public void preOrder(){//避免用户调用时还要传参，进程包装一层
         System.out.print("前序遍历：");
@@ -137,6 +153,30 @@ public class BinTree {
             postOrder(root.right);
             System.out.print(root.val + " ");
         }
+    }
+    //后序非递归遍历
+    public void postOrderNor(){
+        if(null == root){
+            return;
+        }
+        BTNode cur = root;
+        BTNode prev = null;//标记刚刚遍历过的节点
+        Stack<BTNode> s = new Stack<>();
+        while (null != cur || !s.empty()){
+            while (cur != null){
+                s.push(cur);
+                cur = cur.left;
+            }
+            BTNode top = s.peek();
+            if(null == top.right || top.right == prev){
+                System.out.print(top.val+" ");
+                prev = top;
+                s.pop();
+            }else {
+                cur = top.right;
+            }
+        }
+        System.out.println();
     }
     //获取节点个数
     private int getNodeCount(BTNode root){
@@ -314,11 +354,13 @@ public class BinTree {
         }
         return ret;
     }
+
     public static void main(String[] args) {
-        BinTree bt = new BinTree();
-        System.out.println(bt.getHight());
-//        bt.preOrder();
-//        bt.inOrder();
-//        bt.inOrderNor();
+        int[] array = {1,2,3,-1,-1,-1,4,5,-1,-1,6};
+        BinTree bt = new BinTree(array,-1);
+//        System.out.println(bt.getHight());
+//        bt.postOrder();
+//        System.out.println();
+        bt.postOrderNor();
     }
 }
