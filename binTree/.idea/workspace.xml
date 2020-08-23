@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79353cb8-e41f-4b07-804a-81aa39a6e4b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex 191113/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex 191113/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +106,7 @@
       <workItem from="1591958489946" duration="25000" />
       <workItem from="1594998914104" duration="11000" />
       <workItem from="1597904303615" duration="8623000" />
+      <workItem from="1597926859184" duration="226000" />
     </task>
     <servers />
   </component>
@@ -115,10 +114,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="714" y="119" key="FileChooserDialogImpl" timestamp="1594998922767">
+    <state x="714" y="119" key="FileChooserDialogImpl" timestamp="1597926888108">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="714" y="119" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1594998922767" />
+    <state x="714" y="119" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1597926888108" />
     <state width="496" height="219" key="GridCell.Tab.0.bottom" timestamp="1597924383185">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -151,5 +150,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="496" height="219" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1597924383185" />
+    <state x="28" y="21" key="new project wizard" timestamp="1597927082705">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="28" y="21" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1597927082705" />
   </component>
 </project>
