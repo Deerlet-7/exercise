@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79353cb8-e41f-4b07-804a-81aa39a6e4b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../ex 191113/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex 191113/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java13_chatroom/java13_chatroom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java13_chatroom/java13_chatroom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java13_chatroom/src/main/java/model/ChannelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java13_chatroom/src/main/java/model/ChannelDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java13_chatroom/src/main/java/model/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java13_chatroom/src/main/java/model/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java13_chatroom/target/classes/model/ChannelDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java13_chatroom/target/classes/model/ChannelDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java13_chatroom/target/java13_chatroom/WEB-INF/classes/model/ChannelDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java13_chatroom/target/java13_chatroom/WEB-INF/classes/model/ChannelDao.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +112,7 @@
       <workItem from="1594998914104" duration="11000" />
       <workItem from="1597904303615" duration="8623000" />
       <workItem from="1597926859184" duration="226000" />
+      <workItem from="1598420863239" duration="2591000" />
     </task>
     <servers />
   </component>
@@ -150,9 +156,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="496" height="219" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1597924383185" />
-    <state x="28" y="21" key="new project wizard" timestamp="1597927082705">
+    <state x="28" y="21" key="new project wizard" timestamp="1598426812351">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="28" y="21" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1597927082705" />
+    <state x="28" y="21" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1598426812351" />
   </component>
 </project>
