@@ -142,9 +142,9 @@ public class UserDao {
         // 针对上面的代码进行简单验证.
         // 1. 验证 add 方法
 //        User user = new User();
-//        user.setName("tz2");
+//        user.setName("ly");
 //        user.setPassword("123");
-//        user.setNickName("汤老湿2");
+//        user.setNickName("仙女");
 //        userDao.add(user);
         // 2. 按名字查找用户信息
 //        User user = userDao.selectByName("tz2");

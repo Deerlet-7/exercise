@@ -96,7 +96,7 @@ public class ChannelDao {
         ChannelDao channelDao = new ChannelDao();
         // 1. 验证 add 操作
         Channel channel = new Channel();
-        channel.setChannelName("电竞风云");
+        channel.setChannelName("娱乐八卦");
         channelDao.add(channel);
         // 2. 验证 selectAll 操作
 //        List<Channel> channels = channelDao.selectAll();
